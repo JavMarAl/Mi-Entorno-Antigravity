@@ -1,0 +1,1 @@
+# Stale Issue Management Guide

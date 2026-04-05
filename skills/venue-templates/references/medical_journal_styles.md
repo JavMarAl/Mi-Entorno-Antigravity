@@ -1,0 +1,1 @@
+# Placeholder for medical_journal_styles.md

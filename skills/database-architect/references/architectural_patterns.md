@@ -1,0 +1,1 @@
+# Database Architectural Patterns Guide

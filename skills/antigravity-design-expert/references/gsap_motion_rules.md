@@ -1,0 +1,1 @@
+# Placeholder for gsap_motion_rules.md

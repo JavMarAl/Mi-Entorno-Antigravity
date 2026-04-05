@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Dashboard - Carlos Rodríguez | MediPortal</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1540b7",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111521",
+                        "slate-deep": "#1e293b",
+                        "teal-healing": "#0d9488",
+                        "steel-muted": "#475569",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+
+        .active-nav {
+            background-color: #1540b7;
+            color: white;
+            box-shadow: 0 10px 15px -3px rgba(21, 64, 183, 0.3);
+        }
+    </style>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark font-display text-slate-deep dark:text-slate-100 overflow-hidden">
+    <div class="flex min-h-screen h-screen">
+        <!-- Sidebar Navigation -->
+        <aside
+            class="w-72 bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800 flex flex-col h-full z-50">
+            <div class="p-8 pb-10 flex items-center gap-3">
+                <div class="bg-primary p-2 rounded-lg text-white">
+                    <span class="material-symbols-outlined text-3xl">medical_services</span>
+                </div>
+                <h1 class="text-xl font-black tracking-tight text-primary uppercase">MEDIPORTAL</h1>
+            </div>
+            <nav class="flex-1 px-4 space-y-2">
+                <a class="flex items-center gap-4 px-6 py-4 rounded-xl active-nav transition-all" href="dashboard.html">
+                    <span class="material-symbols-outlined text-2xl">dashboard</span>
+                    <span class="text-lg font-bold">Resumen</span>
+                </a>
+                <a class="flex items-center gap-4 px-6 py-4 rounded-xl text-steel-muted hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors group"
+                    href="mis-citas.html">
+                    <span
+                        class="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">calendar_today</span>
+                    <span class="text-lg font-semibold">Mis Citas</span>
+                </a>
+                <a class="flex items-center gap-4 px-6 py-4 rounded-xl text-steel-muted hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors group"
+                    href="historial.html">
+                    <span
+                        class="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">history_edu</span>
+                    <span class="text-lg font-semibold">Historial Médico</span>
+                </a>
+                <a class="flex items-center gap-4 px-6 py-4 rounded-xl text-steel-muted hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors group"
+                    href="404.html">
+                    <span
+                        class="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">lab_research</span>
+                    <span class="text-lg font-semibold text-left leading-tight">Resultados</span>
+                </a>
+                <a class="flex items-center gap-4 px-6 py-4 rounded-xl text-steel-muted hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors group"
+                    href="404.html">
+                    <span
+                        class="material-symbols-outlined text-2xl group-hover:scale-110 transition-transform">settings</span>
+                    <span class="text-lg font-semibold">Ajustes</span>
+                </a>
+            </nav>
+            <div class="p-6 border-t border-slate-100 dark:border-slate-800">
+                <div class="flex items-center gap-3">
+                    <img alt="Carlos Profile" class="size-12 rounded-full object-cover border-2 border-primary"
+                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" />
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-deep dark:text-white">Carlos</span>
+                        <span class="text-sm text-steel-muted font-medium">Paciente Premium</span>
+                    </div>
+                </div>
+                <a href="index.html"
+                    class="w-full mt-6 py-3 px-4 flex items-center justify-center gap-2 rounded-xl bg-slate-50 text-slate-400 font-bold hover:text-red-500 transition-colors">
+                    <span class="material-symbols-outlined">logout</span>
+                    Cerrar Sesión
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-y-auto">
+            <!-- Top Bar -->
+            <header
+                class="sticky top-0 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-10 py-5 flex items-center justify-between z-40">
+                <div class="flex-1 max-w-2xl">
+                    <div class="relative group">
+                        <span
+                            class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-steel-muted text-2xl group-focus-within:text-primary transition-colors">search</span>
+                        <input
+                            class="w-full pl-12 pr-4 py-4 rounded-xl bg-background-light dark:bg-slate-800 border-none focus:ring-2 focus:ring-primary text-lg transition-all placeholder:text-steel-muted"
+                            placeholder="Buscar registros médicos, recetas o doctores..." type="text" />
+                    </div>
+                </div>
+                <div class="flex items-center gap-6 ml-8">
+                    <button
+                        class="relative p-3 rounded-full bg-slate-50 dark:bg-slate-800 text-steel-muted hover:text-primary transition-colors">
+                        <span class="material-symbols-outlined text-3xl">notifications</span>
+                        <span
+                            class="absolute top-2.5 right-2.5 size-2.5 bg-red-500 border-2 border-white rounded-full"></span>
+                    </button>
+                    <div class="flex items-center gap-4">
+                        <div class="text-right">
+                            <p class="font-bold text-slate-deep dark:text-white">Carlos Rodríguez</p>
+                            <p class="text-xs text-steel-muted font-bold">#9942</p>
+                        </div>
+                        <img alt="Carlos" class="size-11 rounded-full object-cover shadow-md"
+                            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" />
+                    </div>
+                </div>
+            </header>
+
+            <div class="p-10 max-w-7xl mx-auto space-y-10">
+                <!-- Welcome Header -->
+                <section>
+                    <h2 class="text-5xl font-black text-slate-deep dark:text-white tracking-tight">Bienvenido de nuevo,
+                        Carlos
+                    </h2>
+                    <p class="text-xl text-steel-muted mt-2 font-medium">Aquí tienes un resumen de tu actividad médica
+                        reciente.</p>
+                </section>
+
+                <!-- Next Appointment Card -->
+                <section>
+                    <div
+                        class="bg-white dark:bg-slate-900 rounded-[32px] shadow-xl border-l-[12px] border-primary p-8 flex flex-col md:flex-row items-center justify-between gap-8 premium-shadow">
+                        <div class="flex items-center gap-6">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800"
+                                alt="Médico" class="size-24 rounded-3xl object-cover shadow-lg" />
+                            <div>
+                                <h3 class="text-steel-muted uppercase tracking-widest font-bold text-xs mb-1">Próxima
+                                    Cita</h3>
+                                <p class="text-3xl font-black text-slate-deep dark:text-white">Dr. Juan Pérez</p>
+                                <p class="text-xl font-semibold text-primary mt-1 flex items-center gap-2">
+                                    <span class="material-symbols-outlined">schedule</span>
+                                    19 Feb, 11:00 AM — Medicina General
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+                            <a href="agendar.html"
+                                class="px-8 py-5 bg-primary text-white rounded-xl text-lg font-bold shadow-lg shadow-primary/30 hover:bg-primary/95 transition-all flex items-center justify-center gap-2">
+                                <span class="material-symbols-outlined">edit_calendar</span>
+                                Reprogramar
+                            </a>
+                            <button
+                                class="px-8 py-5 border-2 border-slate-200 text-steel-muted rounded-xl text-lg font-bold hover:bg-slate-50 transition-all flex items-center justify-center gap-2">
+                                <span class="material-symbols-outlined">cancel</span>
+                                Cancelar
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Health Metrics Grid -->
+                <section>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Metric 1 -->
+                        <div
+                            class="bg-white dark:bg-slate-900 p-8 rounded-[32px] shadow-sm border border-slate-100 dark:border-slate-800">
+                            <div class="flex justify-between items-start mb-6">
+                                <div class="p-4 bg-red-50 text-red-500 rounded-2xl">
+                                    <span class="material-symbols-outlined text-3xl">favorite</span>
+                                </div>
+                                <span
+                                    class="text-emerald-600 font-bold bg-emerald-50 px-3 py-1 rounded-full text-xs uppercase tracking-wider">Normal</span>
+                            </div>
+                            <p class="text-steel-muted font-bold text-lg">Frecuencia Cardíaca</p>
+                            <div class="mt-2 flex items-baseline gap-2">
+                                <span class="text-5xl font-black text-slate-deep dark:text-white">72</span>
+                                <span
+                                    class="text-xl text-steel-muted font-medium uppercase text-xs tracking-widest opacity-60">BPM</span>
+                            </div>
+                        </div>
+                        <!-- Metric 2 -->
+                        <div
+                            class="bg-white dark:bg-slate-900 p-8 rounded-[32px] shadow-sm border border-slate-100 dark:border-slate-800">
+                            <div class="flex justify-between items-start mb-6">
+                                <div class="p-4 bg-blue-50 text-blue-500 rounded-2xl">
+                                    <span class="material-symbols-outlined text-3xl">monitor_weight</span>
+                                </div>
+                                <span
+                                    class="text-emerald-600 font-bold bg-emerald-50 px-3 py-1 rounded-full text-xs">-0.5kg</span>
+                            </div>
+                            <p class="text-steel-muted font-bold text-lg">Peso</p>
+                            <div class="mt-2 flex items-baseline gap-2">
+                                <span class="text-5xl font-black text-slate-deep dark:text-white">84.2</span>
+                                <span
+                                    class="text-xl text-steel-muted font-medium uppercase text-xs tracking-widest opacity-60">kg</span>
+                            </div>
+                        </div>
+                        <!-- Metric 3 -->
+                        <div
+                            class="bg-white dark:bg-slate-900 p-8 rounded-[32px] shadow-sm border border-slate-100 dark:border-slate-800">
+                            <div class="flex justify-between items-start mb-6">
+                                <div class="p-4 bg-emerald-50 text-emerald-500 rounded-2xl">
+                                    <span class="material-symbols-outlined text-3xl">blood_pressure</span>
+                                </div>
+                                <span
+                                    class="text-emerald-600 font-bold bg-emerald-50 px-3 py-1 rounded-full text-xs">Estable</span>
+                            </div>
+                            <p class="text-steel-muted font-bold text-lg">Presión Arterial</p>
+                            <div class="mt-2 flex items-baseline gap-2">
+                                <span class="text-5xl font-black text-slate-deep dark:text-white">120/80</span>
+                                <span
+                                    class="text-xl text-steel-muted font-medium uppercase text-xs tracking-widest opacity-60">mmHg</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Recent Results Table -->
+                <section>
+                    <div class="flex items-center justify-between mb-8">
+                        <h3 class="text-3xl font-black text-slate-deep dark:text-white">Resultados Recientes</h3>
+                        <a href="404.html"
+                            class="text-primary font-bold text-lg hover:underline flex items-center gap-2">
+                            Ver todos
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </a>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-slate-900 rounded-[32px] shadow-xl border border-slate-100 dark:border-slate-800 overflow-hidden">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-slate-50 dark:bg-slate-800/50">
+                                    <th class="px-8 py-6 text-steel-muted font-bold text-sm uppercase tracking-widest">
+                                        Análisis</th>
+                                    <th class="px-8 py-6 text-steel-muted font-bold text-sm uppercase tracking-widest">
+                                        Fecha</th>
+                                    <th class="px-8 py-6 text-steel-muted font-bold text-sm uppercase tracking-widest">
+                                        Estado</th>
+                                    <th
+                                        class="px-8 py-6 text-steel-muted font-bold text-sm uppercase tracking-widest text-right">
+                                        Acción</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100 dark:divide-slate-800">
+                                <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/30 transition-colors group">
+                                    <td class="px-8 py-7">
+                                        <div class="flex items-center gap-4">
+                                            <span class="material-symbols-outlined text-primary text-3xl">science</span>
+                                            <span class="text-xl font-bold text-slate-deep dark:text-white">Hemograma
+                                                Completo</span>
+                                        </div>
+                                    </td>
+                                    <td class="px-8 py-7 text-lg font-medium text-steel-muted">12 Feb, 2026</td>
+                                    <td class="px-8 py-7">
+                                        <span
+                                            class="px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full font-bold text-xs uppercase tracking-widest">Completado</span>
+                                    </td>
+                                    <td class="px-8 py-7 text-right">
+                                        <button
+                                            class="inline-flex items-center gap-2 px-6 py-3 bg-primary/10 text-primary rounded-xl font-bold hover:bg-primary/20 transition-all">
+                                            <span class="material-symbols-outlined">picture_as_pdf</span>
+                                            Descargar
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+# Placeholder for diagram_types.md

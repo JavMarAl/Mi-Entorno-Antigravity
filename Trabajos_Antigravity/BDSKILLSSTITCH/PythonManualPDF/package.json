@@ -1,0 +1,12 @@
+{
+    "name": "python-manual-pdf",
+    "version": "1.0.0",
+    "description": "Generate PDF from Python Docs",
+    "main": "generate_pdf.js",
+    "scripts": {
+        "start": "node generate_pdf.js"
+    },
+    "dependencies": {
+        "puppeteer": "^24.38.0"
+    }
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Agendar Cita | Clinica Martinez</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend:wght@400;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1540b7",
+                        "primary-dark": "#0b2b80",
+                        "background-light": "#f6f6f8",
+                        "slate-deep": "#1e293b",
+                        "teal-healing": "#0d9488",
+                        "steel-muted": "#475569",
+                        "clinicamartinez-hero": "#e7f0e9",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "body": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "2xl": "2rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .font-lexend {
+            font-family: 'Lexend', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+
+        .progression-line {
+            background: linear-gradient(90deg, #1540b7 33%, #e2e8f0 33%);
+        }
+
+        .btn-premium {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-premium:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(21, 64, 183, 0.3);
+        }
+    </style>
+</head>
+
+<body class="bg-background-light text-slate-deep">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <a href="index.html" class="flex items-center gap-3">
+                    <div class="bg-primary p-2 rounded-lg text-white">
+                        <span class="material-symbols-outlined text-3xl">medical_services</span>
+                    </div>
+                    <h1 class="text-2xl font-black tracking-tight text-primary font-lexend">CLINICA MARTINEZ</h1>
+                </a>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-10 text-sm font-bold text-steel-muted uppercase tracking-wider">
+                <a href="#" class="hover:text-primary transition-colors">Especialidades</a>
+                <a href="especialistas.html" class="hover:text-primary transition-colors">Médicos</a>
+                <a href="agendar.html" class="text-primary font-black border-b-2 border-primary pb-1">Agendar Cita</a>
+            </nav>
+
+            <div>
+                <a href="dashboard.html"
+                    class="bg-primary text-white px-8 py-3 rounded-full font-bold text-sm btn-premium shadow-lg shadow-primary/20">
+                    Portal del Paciente
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Progress Steps -->
+    <section class="bg-white border-b border-slate-100 py-12">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="flex items-center justify-between relative">
+                <div class="absolute inset-0 top-1/2 -translate-y-1/2 h-[2px] w-full bg-slate-100 z-0"></div>
+                <div class="absolute inset-0 top-1/2 -translate-y-1/2 h-[2px] w-1/2 bg-primary z-0"></div>
+
+                <div class="z-10 flex flex-col items-center gap-4">
+                    <div
+                        class="w-12 h-12 bg-primary text-white rounded-2xl flex items-center justify-center font-black shadow-lg shadow-primary/20">
+                        <span class="material-symbols-outlined">check</span>
+                    </div>
+                    <span class="text-[10px] font-black text-primary uppercase tracking-widest">Servicio</span>
+                </div>
+
+                <div class="z-10 flex flex-col items-center gap-4">
+                    <div
+                        class="w-12 h-12 bg-primary text-white rounded-2xl flex items-center justify-center font-black shadow-xl shadow-primary/40 ring-8 ring-primary/10">
+                        02
+                    </div>
+                    <span class="text-[10px] font-black text-primary uppercase tracking-widest">Horario</span>
+                </div>
+
+                <div class="z-10 flex flex-col items-center gap-4">
+                    <div
+                        class="w-12 h-12 bg-white text-slate-300 rounded-2xl flex items-center justify-center font-black border border-slate-100">
+                        03
+                    </div>
+                    <span class="text-[10px] font-black text-slate-300 uppercase tracking-widest">Confirmar</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Booking Section -->
+    <main class="py-24">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-3 gap-20">
+
+            <!-- Selection Area -->
+            <div class="lg:col-span-2">
+                <h2 class="text-4xl font-lexend font-black text-slate-deep mb-12">Selecciona tu horario</h2>
+
+                <!-- Calendar Card -->
+                <div class="bg-white rounded-[2.5rem] p-12 shadow-sm border border-slate-100 mb-12">
+                    <div class="flex justify-between items-center mb-10">
+                        <h3 class="text-2xl font-lexend font-black text-slate-deep">Febrero 2026</h3>
+                        <div class="flex gap-2">
+                            <button
+                                class="w-12 h-12 bg-slate-50 border border-slate-100 rounded-xl flex items-center justify-center text-slate-400 hover:text-primary transition-all">
+                                <span class="material-symbols-outlined">chevron_left</span>
+                            </button>
+                            <button
+                                class="w-12 h-12 bg-slate-50 border border-slate-100 rounded-xl flex items-center justify-center text-slate-400 hover:text-primary transition-all">
+                                <span class="material-symbols-outlined">chevron_right</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-7 gap-4 text-center mb-6">
+                        <span class="text-[10px] font-black text-steel-muted uppercase tracking-widest">Lu</span>
+                        <span class="text-[10px] font-black text-steel-muted uppercase tracking-widest">Ma</span>
+                        <span class="text-[10px] font-black text-steel-muted uppercase tracking-widest">Mi</span>
+                        <span class="text-[10px] font-black text-steel-muted uppercase tracking-widest">Ju</span>
+                        <span class="text-[10px] font-black text-steel-muted uppercase tracking-widest">Vi</span>
+                        <span class="text-[10px] font-black text-primary uppercase tracking-widest">Sá</span>
+                        <span class="text-[10px] font-black text-primary uppercase tracking-widest">Do</span>
+                    </div>
+
+                    <div class="grid grid-cols-7 gap-4">
+                        <!-- Mock Days -->
+                        <div class="aspect-square flex items-center justify-center text-sm font-bold text-slate-200">26
+                        </div>
+                        <div class="aspect-square flex items-center justify-center text-sm font-bold text-slate-200">27
+                        </div>
+                        <div class="aspect-square flex items-center justify-center text-sm font-bold text-slate-200">28
+                        </div>
+                        <div class="aspect-square flex items-center justify-center text-sm font-bold text-slate-200">29
+                        </div>
+                        <div class="aspect-square flex items-center justify-center text-sm font-bold text-slate-200">30
+                        </div>
+                        <div class="aspect-square flex items-center justify-center text-sm font-bold text-slate-200">31
+                        </div>
+                        <button
+                            class="aspect-square flex items-center justify-center text-sm font-black text-slate-deep rounded-2xl hover:bg-primary/5 hover:text-primary transition-all">1</button>
+
+                        <!-- Continue days -->
+                        <div
+                            class="aspect-square flex items-center justify-center text-sm font-black text-slate-deep uppercase">
+                            ...</div>
+                        <button
+                            class="aspect-square flex items-center justify-center text-sm font-black bg-primary text-white rounded-2xl shadow-lg shadow-primary/20 transform scale-110">19</button>
+                        <button
+                            class="aspect-square flex items-center justify-center text-sm font-black text-slate-deep rounded-2xl hover:bg-primary/5 hover:text-primary transition-all">20</button>
+                        <button
+                            class="aspect-square flex items-center justify-center text-sm font-black text-slate-deep rounded-2xl hover:bg-primary/5 hover:text-primary transition-all">21</button>
+                    </div>
+                </div>
+
+                <!-- Time slots -->
+                <h4 class="text-xl font-lexend font-black text-slate-deep mb-8 flex items-center gap-3">
+                    <span class="material-symbols-outlined text-primary">schedule</span>
+                    Horarios de Consulta
+                </h4>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                    <button
+                        class="py-5 bg-white border border-slate-100 rounded-2xl text-slate-deep font-black text-xs uppercase tracking-widest hover:border-primary hover:text-primary transition-all">08:00
+                        AM</button>
+                    <button
+                        class="py-5 bg-white border border-slate-100 rounded-2xl text-slate-deep font-black text-xs uppercase tracking-widest hover:border-primary hover:text-primary transition-all">09:30
+                        AM</button>
+                    <button
+                        class="py-5 bg-primary text-white rounded-2xl font-black text-xs uppercase tracking-widest shadow-lg shadow-primary/20 ring-4 ring-primary/10">11:00
+                        AM</button>
+                    <button
+                        class="py-5 bg-white border border-slate-100 rounded-2xl text-slate-deep font-black text-xs uppercase tracking-widest hover:border-primary hover:text-primary transition-all">01:30
+                        PM</button>
+                    <button
+                        class="py-5 bg-white border border-slate-100 rounded-2xl text-slate-deep font-black text-xs uppercase tracking-widest hover:border-primary hover:text-primary transition-all">03:00
+                        PM</button>
+                </div>
+            </div>
+
+            <!-- Summary Sidebar -->
+            <div class="lg:col-span-1">
+                <div class="bg-white rounded-[2.5rem] border border-slate-100 p-10 shadow-xl sticky top-40">
+                    <h3 class="text-2xl font-lexend font-black text-slate-deep mb-10">Resumen Cita</h3>
+
+                    <div class="flex items-center gap-5 mb-10">
+                        <div class="w-16 h-16 rounded-2xl overflow-hidden border-2 border-slate-50 shadow-sm">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=200"
+                                alt="Dr. Juan Pérez" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <p class="text-lg font-lexend font-black text-slate-deep leading-tight">Dr. Juan Pérez</p>
+                            <p class="text-[10px] font-black text-primary uppercase tracking-widest">Estomatología</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-6 border-t border-slate-50 pt-10 mb-12">
+                        <div class="flex justify-between items-center">
+                            <span
+                                class="text-[10px] font-black text-steel-muted uppercase tracking-widest">Fecha:</span>
+                            <span class="text-sm font-black text-slate-deep uppercase">19 Feb, 2026</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[10px] font-black text-steel-muted uppercase tracking-widest">Hora:</span>
+                            <span class="text-sm font-black text-slate-deep uppercase">11:00 AM</span>
+                        </div>
+                        <div class="flex justify-between items-center text-primary">
+                            <span class="text-[10px] font-black uppercase tracking-widest">Costo:</span>
+                            <span class="text-xl font-lexend font-black">$80.00</span>
+                        </div>
+                    </div>
+
+                    <a href="confirmacion.html"
+                        class="w-full block text-center py-5 bg-primary text-white text-sm font-black uppercase tracking-widest rounded-2xl shadow-xl shadow-primary/30 hover:bg-primary-dark transition-all btn-premium">
+                        Confirmar Cita
+                    </a>
+
+                    <p class="text-center text-[10px] text-slate-300 font-bold mt-8 uppercase tracking-widest">
+                        Cargo al finalizar la consulta
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white pt-32 pb-16">
+        <div class="max-w-7xl mx-auto px-6 text-center border-t border-slate-50 pt-16">
+            <p class="text-[10px] font-black text-slate-300 uppercase tracking-widest">
+                © 2026 CLINICA MARTINEZ. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

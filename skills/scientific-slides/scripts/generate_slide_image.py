@@ -1,0 +1,1 @@
+# Placeholder for generate_slide_image.py

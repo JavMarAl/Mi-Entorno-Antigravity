@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Medical AI Chat Dashboard v1</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#05d1a8",
+                        "background-light": "#f5f8f8",
+                        "background-dark": "#0f231f",
+                        "neutral-dark": "#1a2e2a",
+                        "accent-dark": "#273a36",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #273a36;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen flex flex-col overflow-hidden">
+<!-- Top Navigation Bar -->
+<header class="flex items-center justify-between border-b border-accent-dark px-6 py-3 bg-background-light dark:bg-background-dark z-10">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-1.5 rounded-lg">
+<span class="material-symbols-outlined text-background-dark font-bold">clinical_notes</span>
+</div>
+<h2 class="text-xl font-bold tracking-tight">MedAI <span class="text-primary">Stats</span></h2>
+</div>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-primary text-sm font-semibold border-b-2 border-primary pb-1" href="#">Dashboard</a>
+<a class="text-slate-400 hover:text-slate-100 text-sm font-medium transition-colors" href="#">Knowledge Base</a>
+<a class="text-slate-400 hover:text-slate-100 text-sm font-medium transition-colors" href="#">History</a>
+<a class="text-slate-400 hover:text-slate-100 text-sm font-medium transition-colors" href="#">Settings</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">search</span>
+<input class="bg-accent-dark/50 border-none rounded-lg pl-10 pr-4 py-2 text-sm focus:ring-1 focus:ring-primary w-64 placeholder:text-slate-500" placeholder="Search research data..."/>
+</div>
+<button class="p-2 rounded-lg bg-accent-dark hover:bg-accent-dark/80 text-slate-100">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<div class="h-8 w-px bg-accent-dark mx-1"></div>
+<div class="flex items-center gap-3">
+<div class="text-right hidden lg:block">
+<p class="text-xs font-bold text-slate-100">Dr. Researcher</p>
+<p class="text-[10px] text-primary">Senior Epidemiologist</p>
+</div>
+<img alt="User Profile" class="w-10 h-10 rounded-full border-2 border-primary/30 object-cover" data-alt="Professional medical doctor profile photo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-Wa0QmJtV-MizkkW8qF5QtCTpoijHTcCSoLrR55snGDxfnEX31NlfcFNXg4vabs5pFaSzy9ZBaxCOMPzsk4yPl-beFtkxdmf1c0LpUrzSUxbnZAFOa6hDK5FGPzw84EoxCnrbRApE3ov5ZY9lrVhc2DSgmFht1N30-ZMnRvWIOmn1eLCz-YpdyRKyzOaWsIXaA-eRDm0KEPv-WtRjGQ0QVfncTAD4vMnYhdwj-oevyzYx8S9nIRWK9SzXG1p0Cm5devs-RM9UeP4"/>
+</div>
+</div>
+</header>
+<main class="flex flex-1 overflow-hidden">
+<!-- Sidebar: Knowledge Bases -->
+<aside class="w-80 bg-neutral-dark/30 border-r border-accent-dark flex flex-col p-6 gap-6">
+<div>
+<div class="flex items-center justify-between mb-4">
+<h3 class="text-xs font-bold uppercase tracking-widest text-primary/80">Knowledge Bases</h3>
+<span class="material-symbols-outlined text-slate-500 text-sm cursor-pointer hover:text-primary">info</span>
+</div>
+<div class="space-y-3">
+<div class="flex items-start gap-3 p-3 rounded-xl bg-primary/10 border border-primary/20 group cursor-pointer hover:bg-primary/15 transition-all">
+<span class="material-symbols-outlined text-primary mt-0.5">menu_book</span>
+<div>
+<p class="text-sm font-semibold text-slate-100 leading-snug">Principles and Methods of Modern Statistics</p>
+<p class="text-[11px] text-slate-500 mt-1 uppercase font-bold">Active Library</p>
+</div>
+</div>
+<div class="flex items-start gap-3 p-3 rounded-xl bg-accent-dark/20 border border-transparent hover:border-accent-dark cursor-pointer transition-all">
+<span class="material-symbols-outlined text-slate-400 mt-0.5">database</span>
+<div>
+<p class="text-sm font-medium text-slate-400 leading-snug">Bioestadística Avanzada para el Metaanálisis</p>
+<p class="text-[11px] text-slate-600 mt-1 uppercase font-bold">Standard Library</p>
+</div>
+</div>
+</div>
+<button class="w-full mt-4 flex items-center justify-center gap-2 py-2.5 rounded-lg border border-dashed border-accent-dark text-slate-400 hover:text-primary hover:border-primary transition-all text-sm font-medium">
+<span class="material-symbols-outlined text-sm">add_circle</span>
+                    Add New Source
+                </button>
+</div>
+<div class="mt-auto border-t border-accent-dark pt-6">
+<div class="bg-accent-dark/30 p-4 rounded-xl">
+<p class="text-xs font-bold text-slate-100 mb-2">System Performance</p>
+<div class="w-full bg-accent-dark h-1.5 rounded-full overflow-hidden mb-2">
+<div class="bg-primary h-full w-[78%]"></div>
+</div>
+<div class="flex justify-between text-[10px] text-slate-500 uppercase font-bold">
+<span>AI Inference: 78%</span>
+<span>0.4s Latency</span>
+</div>
+</div>
+</div>
+</aside>
+<!-- Main Chat Area -->
+<section class="flex-1 flex flex-col bg-background-light dark:bg-background-dark relative">
+<!-- Chat Header -->
+<div class="px-8 py-4 border-b border-accent-dark flex items-center justify-between bg-background-dark/80 backdrop-blur-sm sticky top-0 z-10">
+<div>
+<h2 class="text-lg font-bold text-slate-100 flex items-center gap-2">
+                        Statistical Analysis - Meta-analysis Session
+                        <span class="bg-primary/20 text-primary text-[10px] px-2 py-0.5 rounded-full uppercase tracking-tighter">Live</span>
+</h2>
+<p class="text-xs text-slate-400">Bayesian approach implementation for clinical trial RCT-402</p>
+</div>
+<div class="flex gap-2">
+<button class="p-2 text-slate-400 hover:text-slate-100 transition-colors">
+<span class="material-symbols-outlined">export_notes</span>
+</button>
+<button class="p-2 text-slate-400 hover:text-slate-100 transition-colors">
+<span class="material-symbols-outlined">history</span>
+</button>
+</div>
+</div>
+<!-- Messages Area -->
+<div class="flex-1 overflow-y-auto p-8 space-y-8 custom-scrollbar">
+<!-- AI Message -->
+<div class="flex items-end gap-4 max-w-4xl">
+<div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center shrink-0 shadow-[0_0_15px_rgba(5,209,168,0.3)]">
+<span class="material-symbols-outlined text-background-dark font-bold">bolt</span>
+</div>
+<div class="flex flex-col gap-2">
+<span class="text-xs font-bold text-primary tracking-widest uppercase ml-1">Medical AI Assistant</span>
+<div class="bg-accent-dark/40 border border-accent-dark text-slate-200 px-6 py-4 rounded-2xl rounded-bl-none shadow-sm">
+<p class="mb-4 text-[15px] leading-relaxed">
+                                Based on the principles of advanced biostatistics, the pooled effect size is calculated using the random-effects model (DerSimonian-Laird). The formal estimation approach is defined as:
+                            </p>
+<!-- Formula Section -->
+<div class="bg-background-dark/60 rounded-xl p-4 my-4 border border-primary/10 flex justify-center items-center">
+<span class="text-lg font-mono text-primary italic">
+                                    θ̂<sub>DL</sub> = ∑ w<sub>i</sub><sup>*</sup> θ<sub>i</sub> / ∑ w<sub>i</sub><sup>*</sup>
+</span>
+</div>
+<p class="mb-3 text-[15px] font-semibold text-slate-100">Key analysis observations from the metadata:</p>
+<ul class="space-y-2 mb-4">
+<li class="flex items-start gap-2 text-sm">
+<span class="text-primary mt-1">•</span>
+<span><strong>Heterogeneity (I²):</strong> 45% (Moderate heterogeneity detected within the forest plot).</span>
+</li>
+<li class="flex items-start gap-2 text-sm">
+<span class="text-primary mt-1">•</span>
+<span><strong>Confidence Interval:</strong> [0.82, 1.15] at 95% significance level.</span>
+</li>
+<li class="flex items-start gap-2 text-sm">
+<span class="text-primary mt-1">•</span>
+<span><strong>P-value:</strong> 0.042 (Statistically significant relative to α = 0.05).</span>
+</li>
+</ul>
+<div class="flex items-center gap-4 pt-2 mt-4 border-t border-accent-dark/50">
+<button class="text-[10px] uppercase font-bold text-slate-500 hover:text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">content_copy</span> Copy
+                                </button>
+<button class="text-[10px] uppercase font-bold text-slate-500 hover:text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">refresh</span> Regenerate
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- User Message -->
+<div class="flex items-end gap-4 max-w-4xl ml-auto flex-row-reverse">
+<div class="w-10 h-10 rounded-xl overflow-hidden border-2 border-primary/50 shrink-0">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Close up of medical doctor profile image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4E83ZqHRaFqgmsUgtdYSCvVwXnJhS_TGG6T2mZ9S6MIUx6iVGUO-OWReIUMk-JRXamIteSafV8WyYMKWweQN1ZTxMxxecQRCdWhFUxDUvaQVqjTPWOIBITCB0iULpmf0qQKOdRDIG8fLlO2oGusIi495X7w0lTFzp5tdJPCN3l-68H4BJ1PpPddNQ-5gggKWVQ3RCXn-tlnMb-kFZqkKItBs_Tx4otDsyjmf-hUwlFfUvD94YsiqVlbvCmrkxRjhVLnmOpl8OFN4"/>
+</div>
+<div class="flex flex-col gap-2 items-end">
+<span class="text-xs font-bold text-slate-500 tracking-widest uppercase mr-1">Dr. Researcher</span>
+<div class="bg-primary text-background-dark font-medium px-6 py-4 rounded-2xl rounded-br-none shadow-[0_4px_15px_rgba(5,209,168,0.2)]">
+<p class="text-[15px]">Calculate the risk ratio for the latest clinical trial data using the Bayesian approach. Integrate the Markov Chain Monte Carlo (MCMC) simulations from our previous session.</p>
+</div>
+</div>
+</div>
+<!-- AI Typing State (Simulated) -->
+<div class="flex items-end gap-4 max-w-4xl">
+<div class="w-10 h-10 rounded-xl bg-accent-dark flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary font-bold">bolt</span>
+</div>
+<div class="bg-accent-dark/20 border border-accent-dark px-4 py-3 rounded-2xl rounded-bl-none flex items-center gap-2">
+<div class="w-1.5 h-1.5 bg-primary/60 rounded-full animate-pulse"></div>
+<div class="w-1.5 h-1.5 bg-primary/60 rounded-full animate-pulse" style="animation-delay: 0.2s"></div>
+<div class="w-1.5 h-1.5 bg-primary/60 rounded-full animate-pulse" style="animation-delay: 0.4s"></div>
+<span class="text-xs text-slate-500 font-bold ml-2 italic tracking-tight">AI is calculating posterior distributions...</span>
+</div>
+</div>
+</div>
+<!-- Input Area -->
+<div class="p-6 bg-background-dark/50 backdrop-blur-xl border-t border-accent-dark">
+<div class="max-w-5xl mx-auto flex items-end gap-4 bg-accent-dark/30 rounded-2xl p-2 border border-accent-dark focus-within:border-primary/40 transition-all">
+<div class="flex-1 flex flex-col">
+<textarea class="w-full bg-transparent border-none focus:ring-0 text-slate-100 placeholder:text-slate-500 resize-none py-3 px-4 min-h-[50px] max-h-40" placeholder="Ask for statistical validation or data synthesis..."></textarea>
+<div class="flex items-center gap-4 px-4 pb-2">
+<button class="text-slate-400 hover:text-primary transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-lg">attach_file</span>
+<span class="text-[10px] font-bold uppercase">Upload Dataset</span>
+</button>
+<button class="text-slate-400 hover:text-primary transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-lg">functions</span>
+<span class="text-[10px] font-bold uppercase">LaTeX</span>
+</button>
+<div class="h-4 w-px bg-accent-dark"></div>
+<span class="text-[10px] font-bold text-slate-600 uppercase">Model: GPT-4 Medical Pro</span>
+</div>
+</div>
+<button class="bg-primary hover:bg-primary/90 text-background-dark h-12 w-12 rounded-xl flex items-center justify-center shadow-[0_0_20px_rgba(5,209,168,0.2)] transition-all shrink-0">
+<span class="material-symbols-outlined font-bold">send</span>
+</button>
+</div>
+<p class="text-center text-[10px] text-slate-600 mt-4 uppercase tracking-[0.2em] font-bold">
+                    MedAI may occasionally generate statistical inaccuracies. Please verify with clinical guidelines.
+                </p>
+</div>
+</section>
+</main>
+</body></html>

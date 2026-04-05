@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statistics AI Assistant</title>
+    <meta name="description"
+        content="Ask questions about statistics and meta-analysis powered by AI and curated academic notebooks." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Marked.js for Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <div class="app-layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-area">
+                    <div class="logo-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18" />
+                        </svg>
+                    </div>
+                    <span class="logo-text">StatAI</span>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h3 class="sidebar-label">Bases de Conocimiento</h3>
+                <div class="kb-list">
+                    <div class="kb-item active" data-notebook="both" title="Consultar ambos cuadernos">
+                        <div class="kb-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                            </svg>
+                        </div>
+                        <div class="kb-info">
+                            <span class="kb-name">Todas las fuentes</span>
+                            <span class="kb-count">2 notebooks activos</span>
+                        </div>
+                        <div class="kb-status active"></div>
+                    </div>
+                    <div class="kb-item" data-notebook="statistics" title="Principles and Methods of Modern Statistics">
+                        <div class="kb-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                            </svg>
+                        </div>
+                        <div class="kb-info">
+                            <span class="kb-name">Modern Statistics</span>
+                            <span class="kb-count">Principles & Methods</span>
+                        </div>
+                        <div class="kb-status"></div>
+                    </div>
+                    <div class="kb-item" data-notebook="biostat"
+                        title="Bioestadística Avanzada para el Metaanálisis Clínico">
+                        <div class="kb-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M2 12h20M12 2a10 10 0 0 1 0 20M12 2a10 10 0 0 0 0 20M12 2c2.5 2.5 4 6 4 10s-1.5 7.5-4 10M12 2C9.5 4.5 8 8 8 12s1.5 7.5 4 10" />
+                            </svg>
+                        </div>
+                        <div class="kb-info">
+                            <span class="kb-name">Bioestadística</span>
+                            <span class="kb-count">Metaanálisis Clínico</span>
+                        </div>
+                        <div class="kb-status"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h3 class="sidebar-label">Temas Sugeridos</h3>
+                <div class="topics-list">
+                    <button class="topic-chip"
+                        data-prompt="¿Qué es el Q de Cochran y cómo se interpreta en un metaanálisis?">Q de
+                        Cochran</button>
+                    <button class="topic-chip"
+                        data-prompt="Explica la diferencia entre efectos fijos y efectos aleatorios en metaanálisis">Efectos
+                        Fijos vs Aleatorios</button>
+                    <button class="topic-chip"
+                        data-prompt="¿Cómo se calcula e interpreta el estadístico I² de heterogeneidad?">I²
+                        Heterogeneidad</button>
+                    <button class="topic-chip"
+                        data-prompt="¿Qué es un intervalo de predicción y cómo difiere del intervalo de confianza en metaanálisis?">Intervalos
+                        de Predicción</button>
+                    <button class="topic-chip" data-prompt="¿Qué es la regresión de Egger y para qué sirve?">Sesgo de
+                        Publicación</button>
+                    <button class="topic-chip"
+                        data-prompt="Explica el método Bootstrap para estimación de errores estándar">Bootstrap</button>
+                    <button class="topic-chip" data-prompt="¿Qué es la g de Hedges y cuándo se debe usar?">g de
+                        Hedges</button>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="server-status" id="serverStatus">
+                    <div class="status-dot disconnected" id="statusDot"></div>
+                    <span id="statusText">Conectando...</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CHAT AREA -->
+        <main class="chat-main">
+            <header class="chat-header">
+                <button class="sidebar-toggle" id="sidebarToggle" aria-label="Abrir/cerrar menú">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <line x1="3" y1="18" x2="21" y2="18" />
+                    </svg>
+                </button>
+                <div class="header-title">
+                    <h1>Statistics AI Assistant</h1>
+                    <span class="header-subtitle">Powered by NotebookLM · Bioestadística & Modern Statistics</span>
+                </div>
+            </header>
+
+            <!-- MESSAGES CONTAINER -->
+            <div class="messages-container" id="messagesContainer">
+                <!-- Welcome splash -->
+                <div class="welcome-splash" id="welcomeSplash">
+                    <div class="welcome-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Z" />
+                            <path d="M12 8v4l3 3" />
+                        </svg>
+                    </div>
+                    <h2>¿En qué puedo ayudarte hoy?</h2>
+                    <p>Haz preguntas sobre estadística, metaanálisis, probabilidad, inferencia y más.<br />Las
+                        respuestas provienen de cuadernos académicos curados.</p>
+                </div>
+            </div>
+
+            <!-- INPUT AREA -->
+            <div class="input-area">
+                <div class="notebook-selector">
+                    <label for="notebookSelect" class="sr-only">Fuente de conocimiento</label>
+                    <select id="notebookSelect" class="notebook-select">
+                        <option value="both">🧠 Ambas fuentes</option>
+                        <option value="statistics">📊 Modern Statistics</option>
+                        <option value="biostat">🔬 Metaanálisis Clínico</option>
+                    </select>
+                </div>
+                <div class="input-row">
+                    <textarea id="questionInput" class="question-input"
+                        placeholder="Escribe tu pregunta de estadística o metaanálisis..." rows="1"
+                        aria-label="Pregunta de estadística"></textarea>
+                    <button id="sendBtn" class="send-btn" aria-label="Enviar pregunta">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13" />
+                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                        </svg>
+                    </button>
+                </div>
+                <p class="input-hint">Presiona <kbd>Enter</kbd> para enviar · <kbd>Shift+Enter</kbd> para nueva línea
+                </p>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+# Placeholder for medical_structured_abstract.md

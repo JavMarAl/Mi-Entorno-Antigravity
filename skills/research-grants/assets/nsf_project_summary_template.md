@@ -1,0 +1,1 @@
+# Placeholder for nsf_project_summary_template.md

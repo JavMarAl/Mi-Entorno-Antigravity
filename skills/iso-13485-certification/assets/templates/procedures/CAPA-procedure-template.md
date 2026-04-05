@@ -1,0 +1,1 @@
+# Placeholder for CAPA-procedure-template.md

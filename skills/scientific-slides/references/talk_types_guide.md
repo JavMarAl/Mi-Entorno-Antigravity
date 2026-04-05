@@ -1,0 +1,1 @@
+# Placeholder for talk_types_guide.md

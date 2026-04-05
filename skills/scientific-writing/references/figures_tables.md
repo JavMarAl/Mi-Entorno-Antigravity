@@ -1,0 +1,1 @@
+# Placeholder for figures_tables.md

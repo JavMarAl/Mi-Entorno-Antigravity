@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "th_0",
+    "question": "[Nivel 1] Arquitectura: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de cliente-servidor ser la causa principal?",
+    "options": [
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "Es el método estándar en Big O para optimizar cliente-servidor.",
+      "Solo es relevante en el paradigma funcional, no en Arquitectura.",
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 1/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 1/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_1",
+    "question": "[Nivel 1] Redes: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de protocolo HTTP y latencia y ancho de banda?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 1/10).",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 1/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_2",
+    "question": "[Nivel 1] Algoritmia: ¿Cuál es el impacto en O(N) de utilizar búsqueda binaria en lugar de notación Big O?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 1/10).",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Es el método estándar en Big O para optimizar notación Big O."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 1/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_3",
+    "question": "[Nivel 1] Redes: ¿Cuál es el beneficio principal de usar protocolo HTTP en comparación con enfoques tradicionales?",
+    "options": [
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 1/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 1/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_4",
+    "question": "[Nivel 1] Estructuras de Control: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de bucles infinito ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 1/10).",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Es el método estándar en Big O para optimizar bucles infinito."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 1/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_5",
+    "question": "[Nivel 1] Bases de Datos: ¿Qué describe mejor la arquitectura conceptual de índices SQL?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Bases de Datos.",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 1/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 1/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_6",
+    "question": "[Nivel 1] Redes: ¿Cuál es el impacto en O(N) de utilizar latencia y ancho de banda en lugar de protocolo HTTP?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 1/10).",
+      "Es el método estándar en Big O para optimizar protocolo HTTP."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 1/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_7",
+    "question": "[Nivel 1] Redes: ¿Cuál es el beneficio principal de usar protocolo HTTP en comparación con enfoques tradicionales?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 1/10).",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 1/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_8",
+    "question": "[Nivel 1] Algoritmia: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de notación Big O y búsqueda binaria?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 1/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 1/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_9",
+    "question": "[Nivel 1] Tipos de Datos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de arrays ser la causa principal?",
+    "options": [
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 1/10).",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 1/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_10",
+    "question": "[Nivel 1] Algoritmia: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de notación Big O ser la causa principal?",
+    "options": [
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 1/10).",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Es el método estándar en Big O para optimizar notación Big O.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 1/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_11",
+    "question": "[Nivel 1] Redes: ¿Cuál es el impacto en O(N) de utilizar latencia y ancho de banda en lugar de protocolo HTTP?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 1/10).",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 1/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_12",
+    "question": "[Nivel 1] Estructuras de Control: ¿Qué describe mejor la arquitectura conceptual de condicionales anidadas?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 1/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 1/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_13",
+    "question": "[Nivel 1] Tipos de Datos: ¿Qué describe mejor la arquitectura conceptual de diccionarios / hashmaps?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 1/10).",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 1/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_14",
+    "question": "[Nivel 1] Redes: ¿Cuál es el impacto en O(N) de utilizar latencia y ancho de banda en lugar de protocolo HTTP?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 1/10).",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Redes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 1/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_15",
+    "question": "[Nivel 1] Arquitectura: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de cliente-servidor ser la causa principal?",
+    "options": [
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "Es el método estándar en Big O para optimizar cliente-servidor.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 1/10).",
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 1/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_16",
+    "question": "[Nivel 1] Arquitectura: ¿Cuál es el beneficio principal de usar cliente-servidor en comparación con enfoques tradicionales?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "Es el método estándar en Big O para optimizar cliente-servidor.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 1/10).",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 1/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_17",
+    "question": "[Nivel 1] Variables y Memoria: ¿Qué describe mejor la arquitectura conceptual de punteros y referencias?",
+    "options": [
+      "Es el método estándar en Big O para optimizar asignación de datos.",
+      "Introduce vulnerabilidades de tipo gestión de RAM si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Variables y Memoria (Nivel 1/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Variables y Memoria."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 1/10, comprender asignación de datos es vital. Esta opción es correcta porque aborda el principio subyacente de Variables y Memoria."
+  },
+  {
+    "id": "th_18",
+    "question": "[Nivel 1] Tipos de Datos: ¿Cuál es el impacto en O(N) de utilizar diccionarios / hashmaps en lugar de arrays?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 1/10).",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 1/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_19",
+    "question": "[Nivel 1] Bases de Datos: ¿Cuál es el impacto en O(N) de utilizar índices SQL en lugar de normalización?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Bases de Datos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar normalización.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 1/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 1/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_20",
+    "question": "[Nivel 2] Redes: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de protocolo HTTP ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 2/10).",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Mejora enormemente la escalabilidad de Redes."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 2/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_21",
+    "question": "[Nivel 2] POO (OOP): Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de herencia vs composición ser la causa principal?",
+    "options": [
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 2/10).",
+      "Es el método estándar en Big O para optimizar herencia vs composición.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 2/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_22",
+    "question": "[Nivel 2] Tipos de Datos: ¿Qué describe mejor la arquitectura conceptual de diccionarios / hashmaps?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 2/10).",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 2/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_23",
+    "question": "[Nivel 2] Tipos de Datos: ¿Cuál es el beneficio principal de usar arrays en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 2/10).",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 2/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_24",
+    "question": "[Nivel 2] Arquitectura: ¿Qué describe mejor la arquitectura conceptual de microservicios?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 2/10).",
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "Es el método estándar en Big O para optimizar cliente-servidor.",
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 2/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_25",
+    "question": "[Nivel 2] Redes: ¿Cuál es el beneficio principal de usar protocolo HTTP en comparación con enfoques tradicionales?",
+    "options": [
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 2/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Solo es relevante en el paradigma funcional, no en Redes."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 2/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_26",
+    "question": "[Nivel 2] Bases de Datos: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de normalización y índices SQL?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 2/10).",
+      "Es el método estándar en Big O para optimizar normalización.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 2/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_27",
+    "question": "[Nivel 2] Seguridad: ¿Qué describe mejor la arquitectura conceptual de inyección SQL?",
+    "options": [
+      "Es el método estándar en Big O para optimizar encriptación.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 2/10).",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Seguridad.",
+      "Mejora enormemente la escalabilidad de Seguridad."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 2/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_28",
+    "question": "[Nivel 2] Bases de Datos: ¿Cuál es el beneficio principal de usar normalización en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 2/10).",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "Es el método estándar en Big O para optimizar normalización.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 2/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_29",
+    "question": "[Nivel 2] Estructuras de Control: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de bucles infinito y condicionales anidadas?",
+    "options": [
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 2/10).",
+      "Es el método estándar en Big O para optimizar bucles infinito."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 2/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_30",
+    "question": "[Nivel 2] Bases de Datos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de normalización ser la causa principal?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar normalización.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 2/10).",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 2/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_31",
+    "question": "[Nivel 2] Algoritmia: ¿Qué describe mejor la arquitectura conceptual de búsqueda binaria?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 2/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 2/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_32",
+    "question": "[Nivel 2] Funciones y Métodos: ¿Cuál es el impacto en O(N) de utilizar funciones de orden superior en lugar de recursividad?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 2/10).",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Es el método estándar en Big O para optimizar recursividad."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 2/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_33",
+    "question": "[Nivel 2] Funciones y Métodos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de recursividad ser la causa principal?",
+    "options": [
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 2/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 2/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_34",
+    "question": "[Nivel 2] Bases de Datos: ¿Cuál es el impacto en O(N) de utilizar índices SQL en lugar de normalización?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Bases de Datos.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 2/10).",
+      "Es el método estándar en Big O para optimizar normalización."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 2/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_35",
+    "question": "[Nivel 2] Funciones y Métodos: ¿Qué describe mejor la arquitectura conceptual de funciones de orden superior?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 2/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 2/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_36",
+    "question": "[Nivel 2] Seguridad: ¿Qué describe mejor la arquitectura conceptual de inyección SQL?",
+    "options": [
+      "Es el método estándar en Big O para optimizar encriptación.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 2/10).",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 2/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_37",
+    "question": "[Nivel 2] Estructuras de Control: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de bucles infinito y condicionales anidadas?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 2/10).",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 2/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_38",
+    "question": "[Nivel 2] Tipos de Datos: ¿Qué describe mejor la arquitectura conceptual de diccionarios / hashmaps?",
+    "options": [
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 2/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 2/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_39",
+    "question": "[Nivel 2] Funciones y Métodos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de recursividad ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 2/10).",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 2/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_40",
+    "question": "[Nivel 3] Seguridad: ¿Cuál es el beneficio principal de usar encriptación en comparación con enfoques tradicionales?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "Solo es relevante en el paradigma funcional, no en Seguridad.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 3/10).",
+      "Es el método estándar en Big O para optimizar encriptación."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 3/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_41",
+    "question": "[Nivel 3] Funciones y Métodos: ¿Cuál es el impacto en O(N) de utilizar funciones de orden superior en lugar de recursividad?",
+    "options": [
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 3/10).",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 3/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_42",
+    "question": "[Nivel 3] POO (OOP): En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de herencia vs composición y polimorfismo?",
+    "options": [
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "Mejora enormemente la escalabilidad de POO (OOP).",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 3/10).",
+      "Es el método estándar en Big O para optimizar herencia vs composición.",
+      "Solo es relevante en el paradigma funcional, no en POO (OOP)."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 3/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_43",
+    "question": "[Nivel 3] Funciones y Métodos: ¿Cuál es el beneficio principal de usar recursividad en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 3/10).",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 3/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_44",
+    "question": "[Nivel 3] Algoritmia: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de notación Big O ser la causa principal?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 3/10).",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "Es el método estándar en Big O para optimizar notación Big O."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 3/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_45",
+    "question": "[Nivel 3] Tipos de Datos: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de arrays y diccionarios / hashmaps?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 3/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 3/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_46",
+    "question": "[Nivel 3] Tipos de Datos: ¿Cuál es el impacto en O(N) de utilizar diccionarios / hashmaps en lugar de arrays?",
+    "options": [
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 3/10).",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 3/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_47",
+    "question": "[Nivel 3] Estructuras de Control: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de bucles infinito y condicionales anidadas?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 3/10).",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 3/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_48",
+    "question": "[Nivel 3] Estructuras de Control: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de bucles infinito ser la causa principal?",
+    "options": [
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 3/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 3/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_49",
+    "question": "[Nivel 3] Algoritmia: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de notación Big O y búsqueda binaria?",
+    "options": [
+      "Es el método estándar en Big O para optimizar notación Big O.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 3/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 3/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_50",
+    "question": "[Nivel 3] Bases de Datos: ¿Cuál es el beneficio principal de usar normalización en comparación con enfoques tradicionales?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Bases de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 3/10).",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "Es el método estándar en Big O para optimizar normalización.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 3/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_51",
+    "question": "[Nivel 3] POO (OOP): ¿Cuál es el beneficio principal de usar herencia vs composición en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 3/10).",
+      "Mejora enormemente la escalabilidad de POO (OOP).",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar herencia vs composición.",
+      "Solo es relevante en el paradigma funcional, no en POO (OOP)."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 3/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_52",
+    "question": "[Nivel 3] Funciones y Métodos: ¿Cuál es el impacto en O(N) de utilizar funciones de orden superior en lugar de recursividad?",
+    "options": [
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 3/10).",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 3/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_53",
+    "question": "[Nivel 3] Arquitectura: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de cliente-servidor ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Arquitectura.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 3/10).",
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "Mejora enormemente la escalabilidad de Arquitectura."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 3/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_54",
+    "question": "[Nivel 3] Redes: ¿Qué describe mejor la arquitectura conceptual de latencia y ancho de banda?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 3/10).",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 3/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_55",
+    "question": "[Nivel 3] Redes: ¿Cuál es el beneficio principal de usar protocolo HTTP en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 3/10).",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 3/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_56",
+    "question": "[Nivel 3] Funciones y Métodos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de recursividad ser la causa principal?",
+    "options": [
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 3/10).",
+      "Es el método estándar en Big O para optimizar recursividad."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 3/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_57",
+    "question": "[Nivel 3] Tipos de Datos: ¿Cuál es el beneficio principal de usar arrays en comparación con enfoques tradicionales?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 3/10).",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 3/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_58",
+    "question": "[Nivel 3] Funciones y Métodos: ¿Cuál es el beneficio principal de usar recursividad en comparación con enfoques tradicionales?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 3/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 3/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_59",
+    "question": "[Nivel 3] Funciones y Métodos: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de recursividad y funciones de orden superior?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 3/10).",
+      "Es el método estándar en Big O para optimizar recursividad."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 3/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_60",
+    "question": "[Nivel 4] Funciones y Métodos: ¿Cuál es el impacto en O(N) de utilizar funciones de orden superior en lugar de recursividad?",
+    "options": [
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 4/10).",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 4/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_61",
+    "question": "[Nivel 4] Estructuras de Control: ¿Cuál es el impacto en O(N) de utilizar condicionales anidadas en lugar de bucles infinito?",
+    "options": [
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 4/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 4/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_62",
+    "question": "[Nivel 4] Redes: ¿Qué describe mejor la arquitectura conceptual de latencia y ancho de banda?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 4/10).",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Solo es relevante en el paradigma funcional, no en Redes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 4/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_63",
+    "question": "[Nivel 4] Tipos de Datos: ¿Qué describe mejor la arquitectura conceptual de diccionarios / hashmaps?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 4/10).",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "Es el método estándar en Big O para optimizar arrays."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 4/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_64",
+    "question": "[Nivel 4] Redes: ¿Qué describe mejor la arquitectura conceptual de latencia y ancho de banda?",
+    "options": [
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 4/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Redes."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 4/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_65",
+    "question": "[Nivel 4] Algoritmia: ¿Cuál es el impacto en O(N) de utilizar búsqueda binaria en lugar de notación Big O?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Es el método estándar en Big O para optimizar notación Big O.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 4/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 4/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_66",
+    "question": "[Nivel 4] Bases de Datos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de normalización ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 4/10).",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "Es el método estándar en Big O para optimizar normalización."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 4/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_67",
+    "question": "[Nivel 4] Arquitectura: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de cliente-servidor ser la causa principal?",
+    "options": [
+      "Es el método estándar en Big O para optimizar cliente-servidor.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 4/10).",
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 4/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_68",
+    "question": "[Nivel 4] Seguridad: ¿Qué describe mejor la arquitectura conceptual de inyección SQL?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 4/10).",
+      "Solo es relevante en el paradigma funcional, no en Seguridad.",
+      "Es el método estándar en Big O para optimizar encriptación."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 4/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_69",
+    "question": "[Nivel 4] Funciones y Métodos: ¿Cuál es el beneficio principal de usar recursividad en comparación con enfoques tradicionales?",
+    "options": [
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 4/10).",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 4/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_70",
+    "question": "[Nivel 4] Algoritmia: ¿Cuál es el impacto en O(N) de utilizar búsqueda binaria en lugar de notación Big O?",
+    "options": [
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 4/10).",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 4/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_71",
+    "question": "[Nivel 4] POO (OOP): En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de herencia vs composición y polimorfismo?",
+    "options": [
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "Es el método estándar en Big O para optimizar herencia vs composición.",
+      "Mejora enormemente la escalabilidad de POO (OOP).",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 4/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 4/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_72",
+    "question": "[Nivel 4] Tipos de Datos: ¿Cuál es el beneficio principal de usar arrays en comparación con enfoques tradicionales?",
+    "options": [
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 4/10).",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 4/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_73",
+    "question": "[Nivel 4] Algoritmia: ¿Cuál es el beneficio principal de usar notación Big O en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 4/10).",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 4/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_74",
+    "question": "[Nivel 4] Redes: ¿Qué describe mejor la arquitectura conceptual de latencia y ancho de banda?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 4/10).",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 4/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_75",
+    "question": "[Nivel 4] POO (OOP): ¿Qué describe mejor la arquitectura conceptual de polimorfismo?",
+    "options": [
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "Mejora enormemente la escalabilidad de POO (OOP).",
+      "Es el método estándar en Big O para optimizar herencia vs composición.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 4/10).",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 4/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_76",
+    "question": "[Nivel 4] Arquitectura: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de cliente-servidor y microservicios?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 4/10).",
+      "Es el método estándar en Big O para optimizar cliente-servidor.",
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "Solo es relevante en el paradigma funcional, no en Arquitectura.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 4/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_77",
+    "question": "[Nivel 4] Tipos de Datos: ¿Cuál es el impacto en O(N) de utilizar diccionarios / hashmaps en lugar de arrays?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 4/10).",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 4/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_78",
+    "question": "[Nivel 4] Redes: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de protocolo HTTP ser la causa principal?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 4/10).",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 4/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_79",
+    "question": "[Nivel 4] POO (OOP): En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de herencia vs composición y polimorfismo?",
+    "options": [
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 4/10).",
+      "Es el método estándar en Big O para optimizar herencia vs composición.",
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "Mejora enormemente la escalabilidad de POO (OOP)."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 4/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_80",
+    "question": "[Nivel 5] Algoritmia: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de notación Big O y búsqueda binaria?",
+    "options": [
+      "Es el método estándar en Big O para optimizar notación Big O.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 5/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Mejora enormemente la escalabilidad de Algoritmia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 5/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_81",
+    "question": "[Nivel 5] Seguridad: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de encriptación ser la causa principal?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Seguridad.",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 5/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 5/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_82",
+    "question": "[Nivel 5] Estructuras de Control: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de bucles infinito ser la causa principal?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 5/10).",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "Es el método estándar en Big O para optimizar bucles infinito."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 5/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_83",
+    "question": "[Nivel 5] Arquitectura: ¿Cuál es el impacto en O(N) de utilizar microservicios en lugar de cliente-servidor?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar cliente-servidor.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 5/10).",
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "Solo es relevante en el paradigma funcional, no en Arquitectura."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 5/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_84",
+    "question": "[Nivel 5] Funciones y Métodos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de recursividad ser la causa principal?",
+    "options": [
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 5/10).",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 5/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_85",
+    "question": "[Nivel 5] Seguridad: ¿Cuál es el beneficio principal de usar encriptación en comparación con enfoques tradicionales?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 5/10).",
+      "Es el método estándar en Big O para optimizar encriptación."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 5/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_86",
+    "question": "[Nivel 5] Variables y Memoria: ¿Cuál es el beneficio principal de usar asignación de datos en comparación con enfoques tradicionales?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Variables y Memoria.",
+      "Es el método estándar en Big O para optimizar asignación de datos.",
+      "Introduce vulnerabilidades de tipo gestión de RAM si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Variables y Memoria (Nivel 5/10).",
+      "Mejora enormemente la escalabilidad de Variables y Memoria."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 5/10, comprender asignación de datos es vital. Esta opción es correcta porque aborda el principio subyacente de Variables y Memoria."
+  },
+  {
+    "id": "th_87",
+    "question": "[Nivel 5] Arquitectura: ¿Cuál es el impacto en O(N) de utilizar microservicios en lugar de cliente-servidor?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Arquitectura.",
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 5/10).",
+      "Es el método estándar en Big O para optimizar cliente-servidor."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 5/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_88",
+    "question": "[Nivel 5] Tipos de Datos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de arrays ser la causa principal?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 5/10).",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 5/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_89",
+    "question": "[Nivel 5] Funciones y Métodos: ¿Cuál es el impacto en O(N) de utilizar funciones de orden superior en lugar de recursividad?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 5/10).",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Es el método estándar en Big O para optimizar recursividad."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 5/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_90",
+    "question": "[Nivel 5] Funciones y Métodos: ¿Cuál es el impacto en O(N) de utilizar funciones de orden superior en lugar de recursividad?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 5/10).",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 5/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_91",
+    "question": "[Nivel 5] Funciones y Métodos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de recursividad ser la causa principal?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 5/10).",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 5/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_92",
+    "question": "[Nivel 5] Estructuras de Control: ¿Qué describe mejor la arquitectura conceptual de condicionales anidadas?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 5/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Es el método estándar en Big O para optimizar bucles infinito."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 5/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_93",
+    "question": "[Nivel 5] Redes: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de protocolo HTTP ser la causa principal?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 5/10).",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 5/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_94",
+    "question": "[Nivel 5] Tipos de Datos: ¿Cuál es el beneficio principal de usar arrays en comparación con enfoques tradicionales?",
+    "options": [
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 5/10).",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 5/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_95",
+    "question": "[Nivel 5] POO (OOP): ¿Qué describe mejor la arquitectura conceptual de polimorfismo?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 5/10).",
+      "Mejora enormemente la escalabilidad de POO (OOP).",
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 5/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_96",
+    "question": "[Nivel 5] Algoritmia: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de notación Big O ser la causa principal?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 5/10).",
+      "Es el método estándar en Big O para optimizar notación Big O."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 5/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_97",
+    "question": "[Nivel 5] Tipos de Datos: ¿Qué describe mejor la arquitectura conceptual de diccionarios / hashmaps?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 5/10).",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "Es el método estándar en Big O para optimizar arrays."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 5/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_98",
+    "question": "[Nivel 5] Estructuras de Control: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de bucles infinito ser la causa principal?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 5/10).",
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 5/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_99",
+    "question": "[Nivel 5] Algoritmia: ¿Cuál es el beneficio principal de usar notación Big O en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 5/10).",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Es el método estándar en Big O para optimizar notación Big O."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 5/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_100",
+    "question": "[Nivel 6] Redes: ¿Cuál es el beneficio principal de usar protocolo HTTP en comparación con enfoques tradicionales?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 6/10).",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 6/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_101",
+    "question": "[Nivel 6] Redes: ¿Cuál es el impacto en O(N) de utilizar latencia y ancho de banda en lugar de protocolo HTTP?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 6/10).",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 6/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_102",
+    "question": "[Nivel 6] Redes: ¿Cuál es el impacto en O(N) de utilizar latencia y ancho de banda en lugar de protocolo HTTP?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 6/10).",
+      "Mejora enormemente la escalabilidad de Redes."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 6/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_103",
+    "question": "[Nivel 6] Tipos de Datos: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de arrays y diccionarios / hashmaps?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 6/10).",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 6/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_104",
+    "question": "[Nivel 6] Bases de Datos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de normalización ser la causa principal?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 6/10).",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "Es el método estándar en Big O para optimizar normalización."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 6/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_105",
+    "question": "[Nivel 6] Variables y Memoria: ¿Cuál es el impacto en O(N) de utilizar punteros y referencias en lugar de asignación de datos?",
+    "options": [
+      "Introduce vulnerabilidades de tipo gestión de RAM si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Variables y Memoria.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Variables y Memoria (Nivel 6/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar asignación de datos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 6/10, comprender asignación de datos es vital. Esta opción es correcta porque aborda el principio subyacente de Variables y Memoria."
+  },
+  {
+    "id": "th_106",
+    "question": "[Nivel 6] Tipos de Datos: ¿Cuál es el beneficio principal de usar arrays en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 6/10).",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Es el método estándar en Big O para optimizar arrays.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 6/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_107",
+    "question": "[Nivel 6] Variables y Memoria: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de asignación de datos ser la causa principal?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Variables y Memoria (Nivel 6/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Variables y Memoria.",
+      "Solo es relevante en el paradigma funcional, no en Variables y Memoria.",
+      "Introduce vulnerabilidades de tipo gestión de RAM si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 6/10, comprender asignación de datos es vital. Esta opción es correcta porque aborda el principio subyacente de Variables y Memoria."
+  },
+  {
+    "id": "th_108",
+    "question": "[Nivel 6] Redes: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de protocolo HTTP ser la causa principal?",
+    "options": [
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 6/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 6/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_109",
+    "question": "[Nivel 6] Arquitectura: ¿Cuál es el impacto en O(N) de utilizar microservicios en lugar de cliente-servidor?",
+    "options": [
+      "Es el método estándar en Big O para optimizar cliente-servidor.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 6/10).",
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Arquitectura."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 6/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_110",
+    "question": "[Nivel 6] Tipos de Datos: ¿Cuál es el impacto en O(N) de utilizar diccionarios / hashmaps en lugar de arrays?",
+    "options": [
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 6/10).",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 6/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_111",
+    "question": "[Nivel 6] Seguridad: ¿Cuál es el beneficio principal de usar encriptación en comparación con enfoques tradicionales?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 6/10).",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Seguridad.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 6/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_112",
+    "question": "[Nivel 6] Redes: ¿Qué describe mejor la arquitectura conceptual de latencia y ancho de banda?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 6/10).",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Redes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 6/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_113",
+    "question": "[Nivel 6] Bases de Datos: ¿Cuál es el impacto en O(N) de utilizar índices SQL en lugar de normalización?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "Es el método estándar en Big O para optimizar normalización.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 6/10).",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 6/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_114",
+    "question": "[Nivel 6] Estructuras de Control: ¿Cuál es el impacto en O(N) de utilizar condicionales anidadas en lugar de bucles infinito?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 6/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 6/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_115",
+    "question": "[Nivel 6] Estructuras de Control: ¿Cuál es el beneficio principal de usar bucles infinito en comparación con enfoques tradicionales?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 6/10).",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 6/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_116",
+    "question": "[Nivel 6] Seguridad: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de encriptación ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 6/10).",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Seguridad.",
+      "Es el método estándar en Big O para optimizar encriptación."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 6/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_117",
+    "question": "[Nivel 6] Funciones y Métodos: ¿Cuál es el beneficio principal de usar recursividad en comparación con enfoques tradicionales?",
+    "options": [
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 6/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar recursividad."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 6/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_118",
+    "question": "[Nivel 6] Bases de Datos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de normalización ser la causa principal?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 6/10).",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "Mejora enormemente la escalabilidad de Bases de Datos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 6/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_119",
+    "question": "[Nivel 6] Algoritmia: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de notación Big O ser la causa principal?",
+    "options": [
+      "Es el método estándar en Big O para optimizar notación Big O.",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 6/10).",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 6/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_120",
+    "question": "[Nivel 7] Redes: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de protocolo HTTP y latencia y ancho de banda?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 7/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 7/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_121",
+    "question": "[Nivel 7] Algoritmia: ¿Qué describe mejor la arquitectura conceptual de búsqueda binaria?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 7/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Es el método estándar en Big O para optimizar notación Big O."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 7/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_122",
+    "question": "[Nivel 7] Redes: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de protocolo HTTP y latencia y ancho de banda?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 7/10).",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 7/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_123",
+    "question": "[Nivel 7] Variables y Memoria: ¿Cuál es el beneficio principal de usar asignación de datos en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Variables y Memoria (Nivel 7/10).",
+      "Es el método estándar en Big O para optimizar asignación de datos.",
+      "Solo es relevante en el paradigma funcional, no en Variables y Memoria.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Variables y Memoria."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 7/10, comprender asignación de datos es vital. Esta opción es correcta porque aborda el principio subyacente de Variables y Memoria."
+  },
+  {
+    "id": "th_124",
+    "question": "[Nivel 7] POO (OOP): ¿Cuál es el impacto en O(N) de utilizar polimorfismo en lugar de herencia vs composición?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 7/10).",
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "Es el método estándar en Big O para optimizar herencia vs composición."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 7/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_125",
+    "question": "[Nivel 7] Funciones y Métodos: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de recursividad y funciones de orden superior?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 7/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 7/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_126",
+    "question": "[Nivel 7] Estructuras de Control: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de bucles infinito y condicionales anidadas?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 7/10).",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 7/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_127",
+    "question": "[Nivel 7] POO (OOP): ¿Cuál es el beneficio principal de usar herencia vs composición en comparación con enfoques tradicionales?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 7/10).",
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "Mejora enormemente la escalabilidad de POO (OOP)."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 7/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_128",
+    "question": "[Nivel 7] Estructuras de Control: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de bucles infinito ser la causa principal?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 7/10).",
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 7/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_129",
+    "question": "[Nivel 7] POO (OOP): En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de herencia vs composición y polimorfismo?",
+    "options": [
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de POO (OOP).",
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 7/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 7/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_130",
+    "question": "[Nivel 7] Funciones y Métodos: ¿Qué describe mejor la arquitectura conceptual de funciones de orden superior?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 7/10).",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 7/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_131",
+    "question": "[Nivel 7] Estructuras de Control: ¿Qué describe mejor la arquitectura conceptual de condicionales anidadas?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 7/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Mejora enormemente la escalabilidad de Estructuras de Control."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 7/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_132",
+    "question": "[Nivel 7] Arquitectura: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de cliente-servidor ser la causa principal?",
+    "options": [
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 7/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Arquitectura.",
+      "Es el método estándar en Big O para optimizar cliente-servidor."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 7/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_133",
+    "question": "[Nivel 7] Seguridad: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de encriptación ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 7/10).",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "Solo es relevante en el paradigma funcional, no en Seguridad."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 7/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_134",
+    "question": "[Nivel 7] Bases de Datos: ¿Qué describe mejor la arquitectura conceptual de índices SQL?",
+    "options": [
+      "Es el método estándar en Big O para optimizar normalización.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 7/10).",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "Mejora enormemente la escalabilidad de Bases de Datos.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 7/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_135",
+    "question": "[Nivel 7] Arquitectura: ¿Cuál es el impacto en O(N) de utilizar microservicios en lugar de cliente-servidor?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Arquitectura.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 7/10).",
+      "Es el método estándar en Big O para optimizar cliente-servidor."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 7/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_136",
+    "question": "[Nivel 7] Arquitectura: ¿Cuál es el impacto en O(N) de utilizar microservicios en lugar de cliente-servidor?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 7/10).",
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Arquitectura.",
+      "Es el método estándar en Big O para optimizar cliente-servidor."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 7/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_137",
+    "question": "[Nivel 7] Tipos de Datos: ¿Qué describe mejor la arquitectura conceptual de diccionarios / hashmaps?",
+    "options": [
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 7/10).",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 7/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_138",
+    "question": "[Nivel 7] Bases de Datos: ¿Cuál es el beneficio principal de usar normalización en comparación con enfoques tradicionales?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Bases de Datos.",
+      "Es el método estándar en Big O para optimizar normalización.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 7/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 7/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_139",
+    "question": "[Nivel 7] Seguridad: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de encriptación y inyección SQL?",
+    "options": [
+      "Es el método estándar en Big O para optimizar encriptación.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Seguridad.",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 7/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 7/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_140",
+    "question": "[Nivel 8] Redes: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de protocolo HTTP ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 8/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 8/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_141",
+    "question": "[Nivel 8] Bases de Datos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de normalización ser la causa principal?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Bases de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 8/10).",
+      "Es el método estándar en Big O para optimizar normalización.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 8/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_142",
+    "question": "[Nivel 8] Bases de Datos: ¿Qué describe mejor la arquitectura conceptual de índices SQL?",
+    "options": [
+      "Es el método estándar en Big O para optimizar normalización.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 8/10).",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 8/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_143",
+    "question": "[Nivel 8] Tipos de Datos: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de arrays y diccionarios / hashmaps?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 8/10).",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 8/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_144",
+    "question": "[Nivel 8] Estructuras de Control: ¿Cuál es el beneficio principal de usar bucles infinito en comparación con enfoques tradicionales?",
+    "options": [
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 8/10).",
+      "Es el método estándar en Big O para optimizar bucles infinito."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 8/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_145",
+    "question": "[Nivel 8] POO (OOP): ¿Cuál es el beneficio principal de usar herencia vs composición en comparación con enfoques tradicionales?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 8/10).",
+      "Es el método estándar en Big O para optimizar herencia vs composición.",
+      "Mejora enormemente la escalabilidad de POO (OOP).",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 8/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_146",
+    "question": "[Nivel 8] Redes: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de protocolo HTTP ser la causa principal?",
+    "options": [
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 8/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 8/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_147",
+    "question": "[Nivel 8] Seguridad: ¿Cuál es el beneficio principal de usar encriptación en comparación con enfoques tradicionales?",
+    "options": [
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 8/10).",
+      "Solo es relevante en el paradigma funcional, no en Seguridad.",
+      "Es el método estándar en Big O para optimizar encriptación.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 8/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_148",
+    "question": "[Nivel 8] Algoritmia: ¿Cuál es el beneficio principal de usar notación Big O en comparación con enfoques tradicionales?",
+    "options": [
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar notación Big O.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 8/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 8/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_149",
+    "question": "[Nivel 8] Algoritmia: ¿Cuál es el beneficio principal de usar notación Big O en comparación con enfoques tradicionales?",
+    "options": [
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 8/10).",
+      "Es el método estándar en Big O para optimizar notación Big O.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 8/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_150",
+    "question": "[Nivel 8] Seguridad: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de encriptación y inyección SQL?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Seguridad.",
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 8/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 8/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_151",
+    "question": "[Nivel 8] Estructuras de Control: ¿Cuál es el beneficio principal de usar bucles infinito en comparación con enfoques tradicionales?",
+    "options": [
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 8/10).",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 8/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_152",
+    "question": "[Nivel 8] Redes: ¿Cuál es el impacto en O(N) de utilizar latencia y ancho de banda en lugar de protocolo HTTP?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 8/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 8/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_153",
+    "question": "[Nivel 8] Seguridad: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de encriptación ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "Es el método estándar en Big O para optimizar encriptación.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 8/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 8/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_154",
+    "question": "[Nivel 8] Estructuras de Control: ¿Cuál es el impacto en O(N) de utilizar condicionales anidadas en lugar de bucles infinito?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 8/10).",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 8/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_155",
+    "question": "[Nivel 8] Estructuras de Control: ¿Cuál es el impacto en O(N) de utilizar condicionales anidadas en lugar de bucles infinito?",
+    "options": [
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 8/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 8/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_156",
+    "question": "[Nivel 8] Funciones y Métodos: ¿Qué describe mejor la arquitectura conceptual de funciones de orden superior?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 8/10).",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 8/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_157",
+    "question": "[Nivel 8] Estructuras de Control: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de bucles infinito ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 8/10).",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Es el método estándar en Big O para optimizar bucles infinito."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 8/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_158",
+    "question": "[Nivel 8] Funciones y Métodos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de recursividad ser la causa principal?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 8/10).",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 8/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_159",
+    "question": "[Nivel 8] Redes: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de protocolo HTTP ser la causa principal?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 8/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 8/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_160",
+    "question": "[Nivel 9] Redes: ¿Qué describe mejor la arquitectura conceptual de latencia y ancho de banda?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 9/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 9/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_161",
+    "question": "[Nivel 9] Estructuras de Control: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de bucles infinito y condicionales anidadas?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 9/10).",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 9/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_162",
+    "question": "[Nivel 9] Funciones y Métodos: ¿Cuál es el impacto en O(N) de utilizar funciones de orden superior en lugar de recursividad?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 9/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 9/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_163",
+    "question": "[Nivel 9] Estructuras de Control: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de bucles infinito ser la causa principal?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 9/10).",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 9/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_164",
+    "question": "[Nivel 9] Funciones y Métodos: ¿Cuál es el impacto en O(N) de utilizar funciones de orden superior en lugar de recursividad?",
+    "options": [
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 9/10).",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 9/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_165",
+    "question": "[Nivel 9] Algoritmia: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de notación Big O y búsqueda binaria?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 9/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Es el método estándar en Big O para optimizar notación Big O.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 9/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_166",
+    "question": "[Nivel 9] Bases de Datos: ¿Cuál es el beneficio principal de usar normalización en comparación con enfoques tradicionales?",
+    "options": [
+      "Es el método estándar en Big O para optimizar normalización.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "Mejora enormemente la escalabilidad de Bases de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 9/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 9/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_167",
+    "question": "[Nivel 9] POO (OOP): En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de herencia vs composición y polimorfismo?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "Mejora enormemente la escalabilidad de POO (OOP).",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 9/10).",
+      "Es el método estándar en Big O para optimizar herencia vs composición."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 9/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_168",
+    "question": "[Nivel 9] Estructuras de Control: ¿Qué describe mejor la arquitectura conceptual de condicionales anidadas?",
+    "options": [
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 9/10).",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 9/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_169",
+    "question": "[Nivel 9] Seguridad: ¿Cuál es el beneficio principal de usar encriptación en comparación con enfoques tradicionales?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar encriptación.",
+      "Solo es relevante en el paradigma funcional, no en Seguridad.",
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 9/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 9/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_170",
+    "question": "[Nivel 9] Estructuras de Control: ¿Cuál es el impacto en O(N) de utilizar condicionales anidadas en lugar de bucles infinito?",
+    "options": [
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 9/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 9/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_171",
+    "question": "[Nivel 9] POO (OOP): En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de herencia vs composición y polimorfismo?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de POO (OOP).",
+      "Es el método estándar en Big O para optimizar herencia vs composición.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 9/10).",
+      "Solo es relevante en el paradigma funcional, no en POO (OOP)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 9/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_172",
+    "question": "[Nivel 9] Redes: ¿Cuál es el beneficio principal de usar protocolo HTTP en comparación con enfoques tradicionales?",
+    "options": [
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 9/10).",
+      "Es el método estándar en Big O para optimizar protocolo HTTP."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 9/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_173",
+    "question": "[Nivel 9] Redes: ¿Qué describe mejor la arquitectura conceptual de latencia y ancho de banda?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 9/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP.",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Introduce vulnerabilidades de tipo sockets TCP si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 9/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_174",
+    "question": "[Nivel 9] POO (OOP): Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de herencia vs composición ser la causa principal?",
+    "options": [
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 9/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "Mejora enormemente la escalabilidad de POO (OOP)."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 9/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_175",
+    "question": "[Nivel 9] Estructuras de Control: ¿Qué describe mejor la arquitectura conceptual de condicionales anidadas?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 9/10).",
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 9/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_176",
+    "question": "[Nivel 9] Variables y Memoria: ¿Cuál es el impacto en O(N) de utilizar punteros y referencias en lugar de asignación de datos?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Variables y Memoria (Nivel 9/10).",
+      "Introduce vulnerabilidades de tipo gestión de RAM si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Variables y Memoria.",
+      "Mejora enormemente la escalabilidad de Variables y Memoria."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 9/10, comprender asignación de datos es vital. Esta opción es correcta porque aborda el principio subyacente de Variables y Memoria."
+  },
+  {
+    "id": "th_177",
+    "question": "[Nivel 9] Bases de Datos: ¿Qué describe mejor la arquitectura conceptual de índices SQL?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 9/10).",
+      "Es el método estándar en Big O para optimizar normalización.",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "Mejora enormemente la escalabilidad de Bases de Datos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 9/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_178",
+    "question": "[Nivel 9] Arquitectura: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de cliente-servidor ser la causa principal?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Arquitectura.",
+      "Es el método estándar en Big O para optimizar cliente-servidor.",
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 9/10).",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 9/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_179",
+    "question": "[Nivel 9] Funciones y Métodos: ¿Cuál es el impacto en O(N) de utilizar funciones de orden superior en lugar de recursividad?",
+    "options": [
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 9/10).",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 9/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_180",
+    "question": "[Nivel 10] Algoritmia: ¿Qué describe mejor la arquitectura conceptual de búsqueda binaria?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Es el método estándar en Big O para optimizar notación Big O.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 10/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 10/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_181",
+    "question": "[Nivel 10] Arquitectura: ¿Cuál es el beneficio principal de usar cliente-servidor en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Arquitectura (Nivel 10/10).",
+      "Mejora enormemente la escalabilidad de Arquitectura.",
+      "Es el método estándar en Big O para optimizar cliente-servidor.",
+      "Introduce vulnerabilidades de tipo patrón MVC si no se controla.",
+      "Solo es relevante en el paradigma funcional, no en Arquitectura."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 10/10, comprender cliente-servidor es vital. Esta opción es correcta porque aborda el principio subyacente de Arquitectura."
+  },
+  {
+    "id": "th_182",
+    "question": "[Nivel 10] Bases de Datos: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de normalización y índices SQL?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Bases de Datos.",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 10/10).",
+      "Es el método estándar en Big O para optimizar normalización."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 10/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_183",
+    "question": "[Nivel 10] Tipos de Datos: ¿Cuál es el impacto en O(N) de utilizar diccionarios / hashmaps en lugar de arrays?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Tipos de Datos.",
+      "Solo es relevante en el paradigma funcional, no en Tipos de Datos.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Tipos de Datos (Nivel 10/10).",
+      "Introduce vulnerabilidades de tipo árboles y grafos si no se controla."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 10/10, comprender arrays es vital. Esta opción es correcta porque aborda el principio subyacente de Tipos de Datos."
+  },
+  {
+    "id": "th_184",
+    "question": "[Nivel 10] Estructuras de Control: ¿Qué describe mejor la arquitectura conceptual de condicionales anidadas?",
+    "options": [
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 10/10).",
+      "Solo es relevante en el paradigma funcional, no en Estructuras de Control."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 10/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_185",
+    "question": "[Nivel 10] Funciones y Métodos: ¿Cuál es el beneficio principal de usar recursividad en comparación con enfoques tradicionales?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 10/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 10/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_186",
+    "question": "[Nivel 10] POO (OOP): En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de herencia vs composición y polimorfismo?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "Mejora enormemente la escalabilidad de POO (OOP).",
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 10/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 10/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_187",
+    "question": "[Nivel 10] Variables y Memoria: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de asignación de datos y punteros y referencias?",
+    "options": [
+      "Introduce vulnerabilidades de tipo gestión de RAM si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Variables y Memoria (Nivel 10/10).",
+      "Es el método estándar en Big O para optimizar asignación de datos.",
+      "Mejora enormemente la escalabilidad de Variables y Memoria."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 10/10, comprender asignación de datos es vital. Esta opción es correcta porque aborda el principio subyacente de Variables y Memoria."
+  },
+  {
+    "id": "th_188",
+    "question": "[Nivel 10] Bases de Datos: ¿Cuál es el beneficio principal de usar normalización en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Bases de Datos (Nivel 10/10).",
+      "Introduce vulnerabilidades de tipo bases NoSQL si no se controla.",
+      "Es el método estándar en Big O para optimizar normalización.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Bases de Datos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 10/10, comprender normalización es vital. Esta opción es correcta porque aborda el principio subyacente de Bases de Datos."
+  },
+  {
+    "id": "th_189",
+    "question": "[Nivel 10] Funciones y Métodos: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de recursividad ser la causa principal?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 10/10).",
+      "Solo es relevante en el paradigma funcional, no en Funciones y Métodos.",
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 10/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_190",
+    "question": "[Nivel 10] POO (OOP): Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de herencia vs composición ser la causa principal?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en POO (OOP).",
+      "Depende estrictamente del compilador subyacente.",
+      "Introduce vulnerabilidades de tipo encapsulamiento si no se controla.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de POO (OOP) (Nivel 10/10).",
+      "Mejora enormemente la escalabilidad de POO (OOP)."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 10/10, comprender herencia vs composición es vital. Esta opción es correcta porque aborda el principio subyacente de POO (OOP)."
+  },
+  {
+    "id": "th_191",
+    "question": "[Nivel 10] Variables y Memoria: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de asignación de datos y punteros y referencias?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Variables y Memoria (Nivel 10/10).",
+      "Es el método estándar en Big O para optimizar asignación de datos.",
+      "Solo es relevante en el paradigma funcional, no en Variables y Memoria.",
+      "Introduce vulnerabilidades de tipo gestión de RAM si no se controla.",
+      "Mejora enormemente la escalabilidad de Variables y Memoria."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 10/10, comprender asignación de datos es vital. Esta opción es correcta porque aborda el principio subyacente de Variables y Memoria."
+  },
+  {
+    "id": "th_192",
+    "question": "[Nivel 10] Funciones y Métodos: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de recursividad y funciones de orden superior?",
+    "options": [
+      "Es el método estándar en Big O para optimizar recursividad.",
+      "Mejora enormemente la escalabilidad de Funciones y Métodos.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Funciones y Métodos (Nivel 10/10).",
+      "Introduce vulnerabilidades de tipo clausuras (closures) si no se controla."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A nivel 10/10, comprender recursividad es vital. Esta opción es correcta porque aborda el principio subyacente de Funciones y Métodos."
+  },
+  {
+    "id": "th_193",
+    "question": "[Nivel 10] Variables y Memoria: Si un sistema presenta cuellos de botella severos, ¿podría una mala implementación de asignación de datos ser la causa principal?",
+    "options": [
+      "Mejora enormemente la escalabilidad de Variables y Memoria.",
+      "Depende estrictamente del compilador subyacente.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Variables y Memoria (Nivel 10/10).",
+      "Solo es relevante en el paradigma funcional, no en Variables y Memoria.",
+      "Es el método estándar en Big O para optimizar asignación de datos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 10/10, comprender asignación de datos es vital. Esta opción es correcta porque aborda el principio subyacente de Variables y Memoria."
+  },
+  {
+    "id": "th_194",
+    "question": "[Nivel 10] Estructuras de Control: ¿Cuál es el impacto en O(N) de utilizar condicionales anidadas en lugar de bucles infinito?",
+    "options": [
+      "Es el método estándar en Big O para optimizar bucles infinito.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Estructuras de Control (Nivel 10/10).",
+      "Introduce vulnerabilidades de tipo patrones de iteración si no se controla.",
+      "Mejora enormemente la escalabilidad de Estructuras de Control.",
+      "Depende estrictamente del compilador subyacente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 10/10, comprender bucles infinito es vital. Esta opción es correcta porque aborda el principio subyacente de Estructuras de Control."
+  },
+  {
+    "id": "th_195",
+    "question": "[Nivel 10] Algoritmia: ¿Cuál es el beneficio principal de usar notación Big O en comparación con enfoques tradicionales?",
+    "options": [
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 10/10).",
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "Mejora enormemente la escalabilidad de Algoritmia.",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A nivel 10/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  },
+  {
+    "id": "th_196",
+    "question": "[Nivel 10] Seguridad: En el contexto de la programación moderna, ¿cómo se relacionan los conceptos de encriptación y inyección SQL?",
+    "options": [
+      "Introduce vulnerabilidades de tipo xss y csrf si no se controla.",
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "Es el método estándar en Big O para optimizar encriptación.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 10/10)."
+    ],
+    "correctAnswer": 4,
+    "explanation": "A nivel 10/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_197",
+    "question": "[Nivel 10] Redes: ¿Cuál es el impacto en O(N) de utilizar latencia y ancho de banda en lugar de protocolo HTTP?",
+    "options": [
+      "Solo es relevante en el paradigma funcional, no en Redes.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Redes (Nivel 10/10).",
+      "Mejora enormemente la escalabilidad de Redes.",
+      "Depende estrictamente del compilador subyacente.",
+      "Es el método estándar en Big O para optimizar protocolo HTTP."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nivel 10/10, comprender protocolo HTTP es vital. Esta opción es correcta porque aborda el principio subyacente de Redes."
+  },
+  {
+    "id": "th_198",
+    "question": "[Nivel 10] Seguridad: ¿Qué describe mejor la arquitectura conceptual de inyección SQL?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Mejora enormemente la escalabilidad de Seguridad.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Seguridad (Nivel 10/10).",
+      "Es el método estándar en Big O para optimizar encriptación.",
+      "Solo es relevante en el paradigma funcional, no en Seguridad."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 10/10, comprender encriptación es vital. Esta opción es correcta porque aborda el principio subyacente de Seguridad."
+  },
+  {
+    "id": "th_199",
+    "question": "[Nivel 10] Algoritmia: ¿Cuál es el impacto en O(N) de utilizar búsqueda binaria en lugar de notación Big O?",
+    "options": [
+      "Depende estrictamente del compilador subyacente.",
+      "Solo es relevante en el paradigma funcional, no en Algoritmia.",
+      "[Correcto] Es el fundamento central que permite la optimización matemática de Algoritmia (Nivel 10/10).",
+      "Introduce vulnerabilidades de tipo ordenamiento rápido si no se controla.",
+      "Es el método estándar en Big O para optimizar notación Big O."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A nivel 10/10, comprender notación Big O es vital. Esta opción es correcta porque aborda el principio subyacente de Algoritmia."
+  }
+]

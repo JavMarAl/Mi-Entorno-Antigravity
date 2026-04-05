@@ -1,0 +1,20 @@
+{
+  "total_dois": 2,
+  "verified": [
+    "10.1038/s41586-020-2012-7"
+  ],
+  "failed": [
+    "10.1056/NEJMoa1908905"
+  ],
+  "metadata": {
+    "10.1038/s41586-020-2012-7": {
+      "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+      "authors": "Zhou, P., Yang, X., Wang, X., et al.",
+      "year": "2020",
+      "journal": "Nature",
+      "volume": "579",
+      "pages": "270-273",
+      "doi": "10.1038/s41586-020-2012-7"
+    }
+  }
+}

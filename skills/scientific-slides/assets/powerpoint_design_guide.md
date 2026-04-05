@@ -1,0 +1,1 @@
+# Placeholder for powerpoint_design_guide.md

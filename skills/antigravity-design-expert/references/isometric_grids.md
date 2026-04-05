@@ -1,0 +1,1 @@
+# Placeholder for isometric_grids.md

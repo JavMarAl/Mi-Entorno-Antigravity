@@ -1,0 +1,1 @@
+# Placeholder for journals_formatting.md

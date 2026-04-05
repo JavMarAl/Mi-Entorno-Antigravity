@@ -1,0 +1,1 @@
+// Prisma error mapping wrapper

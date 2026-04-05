@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaAnalysis Pro — Dashboard de Metaanálisis</title>
+    <meta name="description"
+        content="Herramienta profesional para realizar metaanálisis estadísticos con forest plots, funnel plots, análisis de heterogeneidad y sesgo de publicación.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css?v=3">
+</head>
+
+<body>
+    <!-- ===== APP SHELL ===== -->
+    <header id="app-header">
+        <div class="header-left">
+            <div class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <rect width="32" height="32" rx="8" fill="url(#logoGrad)" />
+                    <path d="M8 22L12 10L16 18L20 8L24 22" stroke="white" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <line x1="6" y1="22" x2="26" y2="22" stroke="white" stroke-width="1.5" stroke-opacity="0.5" />
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+                            <stop stop-color="#00d4aa" />
+                            <stop offset="1" stop-color="#0088ff" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <h1 class="app-title">MetaAnalysis <span class="accent">Pro</span></h1>
+        </div>
+        <nav class="header-nav" id="main-nav">
+            <button class="nav-tab active" data-tab="data-entry">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="16" y1="13" x2="8" y2="13" />
+                    <line x1="16" y1="17" x2="8" y2="17" />
+                </svg>
+                Entrada de Datos
+            </button>
+            <button class="nav-tab" data-tab="results">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="7" height="7" />
+                    <rect x="14" y="3" width="7" height="7" />
+                    <rect x="14" y="14" width="7" height="7" />
+                    <rect x="3" y="14" width="7" height="7" />
+                </svg>
+                Resultados
+            </button>
+            <button class="nav-tab" data-tab="heterogeneity">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 6v6l4 2" />
+                </svg>
+                Heterogeneidad
+            </button>
+            <button class="nav-tab" data-tab="sensitivity">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                </svg>
+                Sensibilidad
+            </button>
+            <button class="nav-tab" data-tab="quality">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 11l3 3L22 4" />
+                    <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+                </svg>
+                Calidad
+            </button>
+            <button class="nav-tab" data-tab="export">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Exportar
+            </button>
+        </nav>
+        <div class="header-right">
+            <button class="btn btn-outline btn-sm" id="btn-methodology"
+                style="margin-right:1rem; border-color:var(--border-accent); color:var(--accent);">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    style="margin-right:4px;">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                Metodología
+            </button>
+            <div id="r-engine-badge" style="font-size:0.72rem; color:var(--text-tertiary); margin-right:0.75rem;">⚗️ R
+                Engine <span class="r-badge r-badge-off">Verificando...</span></div>
+            <div class="status-indicator" id="status-indicator">
+                <span class="status-dot"></span>
+                <span class="status-text">Listo</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== TAB: DATA ENTRY ===== -->
+    <main id="tab-data-entry" class="tab-content active">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-section">
+                <label class="sidebar-label">Tipo de Análisis</label>
+                <select id="analysis-type" class="select-input">
+                    <option value="continuous">Continuo (SMD / Hedges' g)</option>
+                    <option value="binary">Binario (OR / RR)</option>
+                    <option value="correlation">Correlacional (r)</option>
+                    <option value="precalc">Pre-calculado (ES ± SE)</option>
+                </select>
+            </div>
+            <div class="sidebar-section">
+                <label class="sidebar-label">Modelo</label>
+                <div class="radio-group">
+                    <label class="radio-item">
+                        <input type="radio" name="model" value="fixed">
+                        <span class="radio-custom"></span>
+                        Efectos Fijos
+                    </label>
+                    <label class="radio-item">
+                        <input type="radio" name="model" value="random" checked>
+                        <span class="radio-custom"></span>
+                        Efectos Aleatorios
+                    </label>
+                </div>
+            </div>
+            <div class="sidebar-section">
+                <label class="sidebar-label">Moderador (Opcional)</label>
+                <select id="moderator-type" class="select-input">
+                    <option value="none">Ninguno</option>
+                    <option value="categorical">Categórico (Subgrupos)</option>
+                    <option value="continuous">Continuo (Meta-Regresión)</option>
+                </select>
+            </div>
+            <div class="sidebar-section">
+                <label class="sidebar-label">Medida de Efecto</label>
+                <select id="effect-measure" class="select-input">
+                    <option value="SMD">SMD (Hedges' g)</option>
+                    <option value="MD">MD (Diferencia de Medias)</option>
+                </select>
+            </div>
+            <div class="sidebar-divider"></div>
+            <div class="sidebar-actions">
+                <button class="btn btn-outline" id="btn-import-csv">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="17 8 12 3 7 8" />
+                        <line x1="12" y1="3" x2="12" y2="15" />
+                    </svg>
+                    Importar CSV
+                </button>
+                <button class="btn btn-outline" id="btn-paste-data">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+                        <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
+                    </svg>
+                    Pegar Datos
+                </button>
+                <button class="btn btn-outline" id="btn-load-example">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                        <line x1="12" y1="17" x2="12.01" y2="17" />
+                    </svg>
+                    Cargar Ejemplo
+                </button>
+                <button class="btn btn-outline" id="btn-open-calc" title="Calculadora de Tamaño de Efecto">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="3" />
+                        <line x1="8" y1="12" x2="16" y2="12" />
+                        <line x1="12" y1="8" x2="12" y2="16" />
+                    </svg>
+                    Calculadora ES
+                </button>
+                <button class="btn btn-outline" id="btn-open-pico" title="Resaltador PICO de Abstracts">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                    </svg>
+                    PICO
+                </button>
+            </div>
+            <div class="sidebar-divider"></div>
+            <div class="stats-card" id="quick-stats">
+                <div class="stat-row">
+                    <span class="stat-label">Estudios (k)</span>
+                    <span class="stat-value" id="stat-k">0</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">N Total</span>
+                    <span class="stat-value" id="stat-n">0</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Tipo</span>
+                    <span class="stat-value" id="stat-type">Continuo</span>
+                </div>
+            </div>
+        </aside>
+        <section class="main-content">
+            <div class="content-header">
+                <h2>Tabla de Estudios</h2>
+                <p class="content-subtitle">Introduce los datos de cada estudio incluido en el metaanálisis</p>
+            </div>
+            <div class="table-container" id="table-container">
+                <table id="data-table">
+                    <thead id="table-header">
+                        <!-- Dynamic headers based on analysis type -->
+                    </thead>
+                    <tbody id="table-body">
+                        <!-- Dynamic rows -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-actions">
+                <button class="btn btn-ghost" id="btn-add-row">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="5" x2="12" y2="19" />
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                    </svg>
+                    Añadir Estudio
+                </button>
+                <button class="btn btn-ghost" id="btn-clear-all">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="3 6 5 6 21 6" />
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                    </svg>
+                    Limpiar Todo
+                </button>
+            </div>
+            <div class="run-bar">
+                <button class="btn btn-primary btn-lg" id="btn-run-analysis">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
+                    Ejecutar Análisis
+                </button>
+                <button class="btn btn-secondary btn-lg" id="btn-run-r" title="Análisis avanzado con R (metafor)"
+                    style="background:linear-gradient(135deg,#7c3aed,#4f46e5);border:none;display:inline-flex;align-items:center;gap:0.5rem;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18" />
+                    </svg>
+                    ⚗️ Análisis R Avanzado
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== TAB: RESULTS ===== -->
+    <main id="tab-results" class="tab-content" style="flex-direction:column;">
+        <!-- Forest Plot — full width -->
+        <div
+            style="padding: var(--space-xl) var(--space-xl) 0; display:flex; flex-direction:column; gap:var(--space-lg);">
+            <div id="het-alert-banner"></div>
+            <div class="panel panel-full">
+                <div class="panel-header">
+                    <h3>Forest Plot</h3>
+                    <div class="panel-actions">
+                        <button class="btn btn-icon" id="btn-download-forest" title="Descargar PNG">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="panel-body chart-container" id="forest-plot-container">
+                    <div class="empty-state">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1" opacity="0.3">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                            <line x1="3" y1="9" x2="21" y2="9" />
+                            <line x1="9" y1="21" x2="9" y2="9" />
+                        </svg>
+                        <p>Ejecuta un análisis para ver el Forest Plot</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="results-cards-row">
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Resumen del Modelo</h3>
+                </div>
+                <div class="panel-body" id="model-summary">
+                    <div class="empty-state-sm">
+                        <p>Sin datos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Heterogeneidad</h3>
+                </div>
+                <div class="panel-body" id="heterogeneity-summary">
+                    <div class="empty-state-sm">
+                        <p>Sin datos</p>
+                    </div>
+                </div>
+                <div id="subgroup-analysis-container"></div>
+            </div>
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Tabla de Resultados</h3>
+                </div>
+                <div class="panel-body" id="results-table-container">
+                    <div class="empty-state-sm">
+                        <p>Sin datos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- R Advanced Results Panel (hidden until R analysis runs) -->
+        <div id="r-results-panel" style="display:none; padding:0 var(--space-xl) var(--space-xl); margin-top:0;">
+            <div class="panel"
+                style="border:1px solid #7c3aed44; background:linear-gradient(135deg,#7c3aed08,#4f46e508);">
+                <div class="panel-header" style="border-bottom-color:#7c3aed33;">
+                    <h3 style="color:#a78bfa;">⚗️ Resultados R Avanzados <small
+                            style="font-weight:400;font-size:0.7rem;color:var(--text-tertiary);margin-left:0.5rem;">(metafor
+                            REML)</small></h3>
+                    <button class="btn btn-icon" id="btn-close-r-panel" title="Cerrar" style="opacity:0.6;"
+                        onclick="document.getElementById('r-results-panel').style.display='none'">✕</button>
+                </div>
+                <div class="panel-body" id="r-results-body">
+                    <div class="empty-state-sm">
+                        <p>Ejecuta "⚗️ Análisis R Avanzado" para ver resultados avanzados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== TAB: HETEROGENEITY ===== -->
+    <main id="tab-heterogeneity" class="tab-content"
+        style="flex-direction:column; overflow-y:auto; height:calc(100vh - var(--header-height));">
+        <!-- Plots row — 3 columns -->
+        <div
+            style="display:grid; grid-template-columns:repeat(3,1fr); gap:var(--space-xl); padding:var(--space-xl) var(--space-xl) 0;">
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Funnel Plot</h3>
+                    <button class="btn btn-icon" id="btn-download-funnel" title="Descargar PNG">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="panel-body chart-container" id="funnel-plot-container">
+                    <div class="empty-state">
+                        <p>Ejecuta un análisis primero</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Baujat Plot</h3>
+                    <button class="btn btn-icon" id="btn-download-baujat" title="Descargar PNG">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="panel-body chart-container" id="baujat-plot-container">
+                    <div class="empty-state">
+                        <p>Ejecuta un análisis primero</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Galbraith Plot (Radial)</h3>
+                    <button class="btn btn-icon" id="btn-download-galbraith" title="Descargar PNG">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="panel-body chart-container" id="galbraith-plot-container">
+                    <div class="empty-state">
+                        <p>Ejecuta un análisis primero</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Analysis cards row -->
+        <div
+            style="display:grid; grid-template-columns:1fr 1fr; gap:var(--space-xl); padding:var(--space-xl); padding-bottom:0;">
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Tests de Sesgo de Publicación</h3>
+                </div>
+                <div class="panel-body" id="bias-tests-container">
+                    <div class="empty-state-sm">
+                        <p>Sin datos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Estadísticas de Heterogeneidad</h3>
+                </div>
+                <div class="panel-body" id="het-stats-detail">
+                    <div class="empty-state-sm">
+                        <p>Sin datos</p>
+                    </div>
+                </div>
+                <div id="subgroup-analysis-container"></div>
+            </div>
+        </div>
+
+        <!-- R Advanced: τ² methods comparison -->
+        <div id="r-het-panel"
+            style="display:none; padding:var(--space-xl); padding-top:var(--space-md); padding-bottom:var(--space-3xl);">
+            <div class="panel"
+                style="border:1px solid #7c3aed44; background:linear-gradient(135deg,#7c3aed08,transparent);">
+                <div class="panel-header" style="border-bottom-color:#7c3aed33;">
+                    <h3 style="color:#a78bfa;">⚗️ Comparación de Métodos τ² (R) <small
+                            style="font-weight:400;font-size:0.7rem;color:var(--text-tertiary); margin-left:0.5rem;">7
+                            estimadores + IC para I²</small></h3>
+                </div>
+                <div class="panel-body" id="r-het-body">
+                    <div class="empty-state-sm">
+                        <p>Ejecuta "⚗️ Análisis R Avanzado" primero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== TAB: SENSITIVITY ===== -->
+    <main id="tab-sensitivity" class="tab-content"
+        style="flex-direction:column; overflow-y:auto; height:calc(100vh - var(--header-height));">
+        <!-- Top row: LOO + Bubble Plot -->
+        <div
+            style="display:grid; grid-template-columns:1fr 1fr; gap:var(--space-xl); padding:var(--space-xl) var(--space-xl) 0;">
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Análisis Leave-One-Out</h3>
+                    <button class="btn btn-icon" id="btn-download-loo" title="Descargar PNG">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="panel-body chart-container" id="loo-plot-container">
+                    <div class="empty-state">
+                        <p>Ejecuta un análisis primero</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel" id="bubble-plot-panel">
+                <div class="panel-header">
+                    <h3>Meta-Regresión Continua (Bubble Plot)</h3>
+                    <button class="btn btn-icon" id="btn-download-bubble" title="Descargar PNG">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="panel-body chart-container" id="bubble-plot-container">
+                    <div class="empty-state">
+                        <p>Ejecuta un análisis primero</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom row: Influence table full-width -->
+        <div style="padding:var(--space-xl); padding-bottom:0;">
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Tabla de Influencia</h3>
+                </div>
+                <div class="panel-body" id="influence-table-container">
+                    <div class="empty-state-sm">
+                        <p>Sin datos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- R Advanced: DFFITS & CovRatio -->
+        <div id="r-sensitivity-panel"
+            style="display:none; padding:var(--space-xl); padding-top:var(--space-md); padding-bottom:var(--space-3xl);">
+            <div class="panel"
+                style="border:1px solid #7c3aed44; background:linear-gradient(135deg,#7c3aed08,transparent);">
+                <div class="panel-header" style="border-bottom-color:#7c3aed33;">
+                    <h3 style="color:#a78bfa;">⚗️ DFFITS &amp; CovRatio (R) <small
+                            style="font-weight:400;font-size:0.7rem;color:var(--text-tertiary); margin-left:0.5rem;">Diagnósticos
+                            de influencia avanzados</small></h3>
+                </div>
+                <div class="panel-body" id="r-sensitivity-body">
+                    <div class="empty-state-sm">
+                        <p>Ejecuta "⚗️ Análisis R Avanzado" primero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== TAB: QUALITY (RoB 2) ===== -->
+    <main id="tab-quality" class="tab-content"
+        style="flex-direction:column; overflow-y:auto; height:calc(100vh - var(--header-height));">
+        <!-- RoB 2 table — full width -->
+        <div style="padding:var(--space-xl) var(--space-xl) 0;">
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Risk of Bias 2 (RoB 2) — Evaluación por Estudio</h3>
+                    <span style="font-size:0.75rem;color:var(--text-tertiary);">Herramienta Cochrane · 5 dominios</span>
+                </div>
+                <div class="panel-body">
+                    <p class="panel-description" style="margin-bottom:1.25rem;">
+                        Evalúa el riesgo de sesgo de cada estudio en 5 dominios del instrumento RoB 2.
+                        El juicio global se calcula automáticamente como el peor dominio.
+                    </p>
+                    <div id="rob-table-container">
+                        <div class="empty-state">
+                            <p>Ejecuta un análisis primero para cargar los estudios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom row: Summary stats + Export -->
+        <div
+            style="display:grid; grid-template-columns:2fr 1fr; gap:var(--space-xl); padding:var(--space-xl); padding-bottom:var(--space-3xl);">
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Resumen de Sesgo por Nivel de Riesgo</h3>
+                </div>
+                <div class="panel-body" id="rob-summary-container">
+                    <div class="empty-state-sm">
+                        <p>Sin datos de evaluación</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Exportar</h3>
+                </div>
+                <div class="panel-body" style="display:flex; flex-direction:column; gap:var(--space-md);">
+                    <p style="font-size:var(--font-size-sm); color:var(--text-secondary);">
+                        Descarga la tabla RoB 2 como imagen PNG para incluirla en tu informe.
+                    </p>
+                    <button class="btn btn-secondary" id="btn-export-rob">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                        Exportar RoB como PNG
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main id="tab-export" class="tab-content">
+        <div class="results-main" style="display:flex; flex-direction:column; gap:1.5rem; width:100%;">
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Exportar Gráficos</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="export-grid">
+                        <button class="export-card" id="export-forest-png">
+                            <div class="export-icon">📊</div>
+                            <span>Forest Plot</span>
+                            <small>PNG</small>
+                        </button>
+                        <button class="export-card" id="export-funnel-png">
+                            <div class="export-icon">🔺</div>
+                            <span>Funnel Plot</span>
+                            <small>PNG</small>
+                        </button>
+                        <button class="export-card" id="export-baujat-png">
+                            <div class="export-icon">📈</div>
+                            <span>Baujat Plot</span>
+                            <small>PNG</small>
+                        </button>
+                        <button class="export-card" id="export-loo-png">
+                            <div class="export-icon">🔄</div>
+                            <span>Leave-One-Out</span>
+                            <small>PNG</small>
+                        </button>
+                        <button class="export-card" id="export-galbraith-png">
+                            <div class="export-icon">🎯</div>
+                            <span>Galbraith Plot</span>
+                            <small>PNG</small>
+                        </button>
+                        <button class="export-card" id="export-bubble-png">
+                            <div class="export-icon">🫧</div>
+                            <span>Meta-Regresión</span>
+                            <small>PNG</small>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-header">
+                    <h3>Generar Informe</h3>
+                </div>
+                <div class="panel-body">
+                    <button class="export-card" id="btn-generate-report"
+                        style="width: 100%; max-width: 400px; margin-bottom: 2rem;">
+                        <div class="export-icon">📄</div>
+                        <span>Generar Informe Completo</span>
+                        <small>Imprimir / PDF</small>
+                    </button>
+                    <div class="panel-header" style="border-top: 1px solid var(--border-light); padding-top: 1rem;">
+                        <h3>Exportar Datos Crudos</h3>
+                    </div>
+                    <div class="export-grid" style="margin-top: 1rem;">
+                        <button class="export-card" id="export-data-csv">
+                            <div class="export-icon">📋</div>
+                            <span>Datos de Entrada</span>
+                            <small>CSV</small>
+                        </button>
+                        <button class="export-card" id="export-results-csv">
+                            <div class="export-icon">📑</div>
+                            <span>Resultados</span>
+                            <small>CSV</small>
+                        </button>
+                        <button class="export-card" id="export-r-script"
+                            style="border-color:#7c3aed44; background:linear-gradient(135deg,#7c3aed08,transparent);">
+                            <div class="export-icon">⚗️</div>
+                            <span style="color:#a78bfa;">Script R</span>
+                            <small>Reproducible .R</small>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- PRISMA -->
+            <div class="panel" style="margin-top:1.5rem;">
+                <div class="panel-header">
+                    <h3>Diagrama PRISMA 2020</h3>
+                    <span style="font-size:0.75rem;color:var(--text-tertiary);">Auto-generado · Exportable SVG</span>
+                </div>
+                <div class="panel-body">
+                    <div style="display:flex;gap:1.5rem;flex-wrap:wrap;">
+                        <div id="prisma-controls" style="min-width:200px;flex:0 0 220px;"></div>
+                        <div id="prisma-svg-container" style="flex:1;min-width:300px;overflow:auto;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===== MODALS ===== -->
+    <div class="modal-overlay" id="modal-paste" style="display:none;">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Pegar Datos</h3>
+                <button class="btn btn-icon modal-close" data-close="modal-paste">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Pega datos tabulares (desde Excel, Google Sheets o CSV). Separa columnas con tabulaciones o comas.
+                </p>
+                <textarea id="paste-textarea" class="textarea-input" rows="10"
+                    placeholder="Study&#9;Mean_Exp&#9;SD_Exp&#9;N_Exp&#9;Mean_Ctrl&#9;SD_Ctrl&#9;N_Ctrl&#10;Smith 2020&#9;12.5&#9;3.2&#9;45&#9;10.1&#9;3.5&#9;42"></textarea>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="paste-has-header" checked>
+                    La primera fila contiene encabezados
+                </label>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-ghost" data-close="modal-paste">Cancelar</button>
+                <button class="btn btn-primary" id="btn-paste-confirm">Importar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MODAL: PICO HIGHLIGHTER ===== -->
+    <div class="modal-overlay" id="modal-pico" style="display:none;">
+        <div class="modal" style="max-width:860px;width:95vw;">
+            <div class="modal-header">
+                <h3>🔍 PICO Highlighter — Resaltador de Abstracts</h3>
+                <button class="btn btn-icon modal-close" data-close="modal-pico">&times;</button>
+            </div>
+            <div class="pico-legend"
+                style="padding:0.75rem 1.5rem;border-bottom:1px solid var(--border-default);display:flex;gap:1rem;flex-wrap:wrap;">
+                <span class="pico-legend-item"><mark class="pico-P">P</mark> Población</span>
+                <span class="pico-legend-item"><mark class="pico-I">I</mark> Intervención</span>
+                <span class="pico-legend-item"><mark class="pico-C">C</mark> Comparación</span>
+                <span class="pico-legend-item"><mark class="pico-O">O</mark> Resultado</span>
+            </div>
+            <div class="modal-body" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;padding:1.25rem;">
+                <div style="display:flex;flex-direction:column;gap:0.75rem;">
+                    <label class="sidebar-label">Pega el abstract aquí</label>
+                    <textarea id="pico-input" class="textarea-input" rows="12"
+                        placeholder="Paste abstract here / Pega el abstract aquí..."></textarea>
+                    <button class="btn btn-primary" onclick="PicoModule.processInput()">Resaltar PICO</button>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:0.75rem;">
+                    <label class="sidebar-label">Resultado resaltado</label>
+                    <div id="pico-output" class="pico-output"></div>
+                    <button class="btn btn-outline" onclick="PicoModule.copyHighlighted()">📋 Copiar texto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MODAL: EFFECT SIZE CALCULATOR ===== -->
+    <div class="modal-overlay" id="modal-calc" style="display:none;">
+        <div class="modal" style="max-width:560px;width:95vw;">
+            <div class="modal-header">
+                <h3>∑ Calculadora de Tamaño de Efecto</h3>
+                <button class="btn btn-icon modal-close" data-close="modal-calc">&times;</button>
+            </div>
+            <div class="modal-body" style="padding:1.25rem;">
+                <div style="margin-bottom:1rem;">
+                    <label class="sidebar-label">Tipo de cálculo</label>
+                    <select id="calc-type" class="select-input" onchange="updateCalcForm()">
+                        <option value="smd">SMD — Hedges' g (Medias ± DE)</option>
+                        <option value="md">MD — Diferencia de Medias</option>
+                        <option value="or">OR — Odds Ratio (2×2)</option>
+                        <option value="rr">RR — Riesgo Relativo (2×2)</option>
+                        <option value="correlation">r — Correlación de Pearson</option>
+                    </select>
+                </div>
+                <div id="calc-form"></div>
+                <div id="calc-result" style="margin-top:1rem;"></div>
+                <div style="display:flex;gap:0.75rem;margin-top:1rem;">
+                    <button class="btn btn-primary" onclick="runCalcES()">Calcular ES</button>
+                    <button class="btn btn-outline" id="btn-apply-calc" style="display:none"
+                        onclick="applyCalcToRow()">Aplicar a fila seleccionada</button>
+                    <button class="btn btn-ghost" data-close="modal-calc">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== GLOBAL EXPERT AI ASSISTANT ===== -->
+    <button id="ai-fab" class="ai-fab" aria-label="Abrir Asistente IA">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            <path d="M12 8v4l3 3" />
+        </svg>
+    </button>
+
+    <div id="ai-panel" class="ai-panel">
+        <div class="ai-header">
+            <div class="ai-title">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2">
+                    <path d="M12 2a10 10 0 1 0 10 10H12V2z" />
+                    <path d="M12 12 2.1 7.1" />
+                    <path d="M12 12l9.9 4.9" />
+                </svg>
+                <div>
+                    <h3>Asistente Experto (IA)</h3>
+                    <span class="ai-subtitle">Metaanálisis & Estadística</span>
+                </div>
+            </div>
+            <button id="ai-close" class="btn-icon" aria-label="Cerrar Asistente">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <div class="ai-messages" id="ai-messages">
+            <!-- Messages will be injected here -->
+        </div>
+        <div class="ai-input-area">
+            <textarea id="ai-input" placeholder="Pregunta sobre heterogeneidad, modelos..." rows="1"></textarea>
+            <button id="ai-send" class="btn-icon btn-primary" aria-label="Enviar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- ===== MODAL: METODOLOGÍA ===== -->
+    <div id="methodology-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h2>Metodología y Motores de Cálculo de MetaAnalysis Pro</h2>
+                <button class="btn-icon" id="btn-close-methodology" aria-label="Cerrar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body academic-text">
+                <p class="methodology-intro">Esta aplicación utiliza un sistema de doble motor para garantizar fluidez
+                    en la entrada de datos y máximo rigor científico en los resultados finales.</p>
+
+                <h3>1. Motor Estándar (Cálculo en Tiempo Real)</h3>
+                <ul>
+                    <li><strong>Tecnología:</strong> JavaScript nativo (Frontend).</li>
+                    <li><strong>Uso:</strong> Proporciona una vista previa rápida de los tamaños de efecto (Hedges' g,
+                        SMD) y varianzas a medida que se introducen los datos.</li>
+                    <li><strong>Método:</strong> Utiliza el método clásico de la varianza inversa y el estimador
+                        estándar de DerSimonian-Laird (DL) para modelos de efectos aleatorios. Es útil para exploración
+                        inicial, pero tiene limitaciones con muestras pequeñas.</li>
+                </ul>
+
+                <h3>2. Motor Avanzado (R Engine)</h3>
+                <ul>
+                    <li><strong>Tecnología:</strong> Lenguaje R y la librería profesional <code>metafor</code>
+                        (Backend).</li>
+                    <li><strong>Uso:</strong> Ejecuta el análisis estadístico definitivo, con calidad para publicación
+                        científica.</li>
+                    <li><strong>Métodos específicos utilizados:</strong>
+                        <ul class="method-sublist">
+                            <li><strong>Efecto Global:</strong> Función <code>rma.uni()</code>. Por defecto, utiliza el
+                                método REML (Restricted Maximum Likelihood), el estándar actual para estimar la varianza
+                                entre estudios (τ²).</li>
+                            <li><strong>Heterogeneidad:</strong> Calcula el intervalo de predicción y compara 7
+                                estimadores distintos (REML, DL, PM, EB, ML, SJ, HE) para evaluar la robustez de I².
+                            </li>
+                            <li><strong>Sesgo de Publicación:</strong> Test de Egger (<code>regtest()</code>), Test de
+                                Begg (<code>ranktest()</code>), y análisis Trim-and-Fill (<code>trimfill()</code>) con
+                                estimadores robustos para evitar falsos positivos.</li>
+                            <li><strong>Análisis de Subgrupos:</strong> Evaluado como moderador categórico derivando el
+                                test ómnibus (Q<sub>between</sub>) para diferencias significativas.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden file input for CSV/TSV -->
+    <input type="file" id="csv-file-input" accept=".csv,.tsv,.txt" style="display:none;">
+
+    <script src="js/stats-engine.js"></script>
+    <script src="js/charts.js?v=3"></script>
+    <script src="js/data-entry.js"></script>
+    <script src="js/export.js"></script>
+    <script src="js/rob.js"></script>
+    <script src="js/prisma.js"></script>
+    <script src="js/pico.js"></script>
+    <script src="js/r-bridge.js"></script>
+    <script src="js/app.js?v=6"></script>
+    <script src="js/ai-assistant.js?v=1"></script>
+</body>
+
+</html>

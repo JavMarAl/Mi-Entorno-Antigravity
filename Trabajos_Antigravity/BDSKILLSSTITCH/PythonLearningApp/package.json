@@ -1,0 +1,19 @@
+{
+    "name": "python-learning-app",
+    "version": "1.0.0",
+    "description": "Python Learning Application for Beginners",
+    "main": "backend/server.js",
+    "scripts": {
+        "start": "node backend/server.js",
+        "dev": "node --watch backend/server.js"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.27.1",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "notebooklm-mcp-server": "^3.0.7"
+    },
+    "devDependencies": {
+        "notebooklm-mcp-server": "^3.0.7"
+    }
+}

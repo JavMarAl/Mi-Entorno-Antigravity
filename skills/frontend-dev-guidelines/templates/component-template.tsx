@@ -1,0 +1,1 @@
+// Canonical React Component Template

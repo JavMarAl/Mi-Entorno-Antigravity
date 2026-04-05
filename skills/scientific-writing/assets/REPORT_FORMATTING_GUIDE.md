@@ -1,0 +1,1 @@
+# Placeholder for REPORT_FORMATTING_GUIDE.md

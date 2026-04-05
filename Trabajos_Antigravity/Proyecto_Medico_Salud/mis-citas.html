@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Citas - Carlos Rodríguez | MediPortal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lexend', sans-serif;
+            background-color: #f8fafc;
+        }
+
+        .sidebar-active {
+            background: #1546b7;
+            color: white;
+            box-shadow: 0 10px 15px -3px rgba(21, 70, 183, 0.2);
+        }
+
+        .premium-shadow {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+        }
+
+        .status-confirmed {
+            background: #ecfdf5;
+            color: #059669;
+            border: 1px solid #d1fae5;
+        }
+
+        .status-pending {
+            background: #fffbeb;
+            color: #d97706;
+            border: 1px solid #fef3c7;
+        }
+
+        .status-completed {
+            background: #eff6ff;
+            color: #2563eb;
+            border: 1px solid #dbeafe;
+        }
+    </style>
+</head>
+
+<body class="text-slate-900 flex min-h-screen overflow-hidden">
+
+    <!-- Sidebar (Same as Dashboard for consistency) -->
+    <aside class="w-72 bg-white border-r border-slate-100 flex flex-col h-screen fixed left-0 top-0 z-50">
+        <div class="p-8 pb-12 flex items-center space-x-3">
+            <div
+                class="w-10 h-10 bg-[#1546b7] rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-200">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+            </div>
+            <span class="text-xl font-bold tracking-tight text-slate-800">MEDIPORTAL</span>
+        </div>
+
+        <nav class="flex-1 px-4 space-y-1">
+            <a href="dashboard.html"
+                class="flex items-center space-x-4 px-6 py-4 text-slate-500 hover:bg-slate-50 hover:text-[#1546b7] rounded-2xl transition-all duration-200 group">
+                <span class="text-xl group-hover:scale-110 transition-transform">📊</span>
+                <span class="font-medium">Resumen</span>
+            </a>
+            <a href="mis-citas.html"
+                class="flex items-center space-x-4 px-6 py-4 sidebar-active rounded-2xl transition-all duration-300">
+                <span class="text-xl">📅</span>
+                <span class="font-semibold">Mis Citas</span>
+            </a>
+            <a href="historial.html"
+                class="flex items-center space-x-4 px-6 py-4 text-slate-500 hover:bg-slate-50 hover:text-[#1546b7] rounded-2xl transition-all duration-200 group">
+                <span class="text-xl group-hover:scale-110 transition-transform">📂</span>
+                <span class="font-medium">Historial Médico</span>
+            </a>
+            <a href="404.html"
+                class="flex items-center space-x-4 px-6 py-4 text-slate-500 hover:bg-slate-50 hover:text-[#1546b7] rounded-2xl transition-all duration-200 group">
+                <span class="text-xl group-hover:scale-110 transition-transform">🧪</span>
+                <span class="font-medium">Resultados</span>
+            </a>
+            <a href="404.html"
+                class="flex items-center space-x-4 px-6 py-4 text-slate-500 hover:bg-slate-50 hover:text-[#1546b7] rounded-2xl transition-all duration-200 group">
+                <span class="text-xl group-hover:scale-110 transition-transform">⚙️</span>
+                <span class="font-medium">Ajustes</span>
+            </a>
+        </nav>
+
+        <div class="p-6 mt-auto">
+            <a href="index.html"
+                class="flex items-center space-x-4 px-6 py-4 text-slate-400 hover:text-red-500 transition-colors font-medium">
+                <span>🚪</span>
+                <span>Cerrar Sesión</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 ml-72 overflow-y-auto min-h-screen">
+        <header
+            class="h-24 bg-white/80 backdrop-blur-md border-b border-slate-100 flex items-center justify-between px-12 sticky top-0 z-40">
+            <div>
+                <h2 class="text-2xl font-bold text-slate-800">Mis Citas</h2>
+                <p class="text-slate-500 text-sm">Gestiona tus consultas programadas y pasadas.</p>
+            </div>
+            <div class="flex items-center space-x-6">
+                <a href="agendar.html"
+                    class="px-8 py-4 bg-[#1546b7] text-white font-bold rounded-2xl shadow-lg shadow-blue-200 hover:bg-blue-800 transition-all transform hover:scale-105">
+                    + Nueva Cita
+                </a>
+            </div>
+        </header>
+
+        <div class="p-12 space-y-12 max-w-7xl mx-auto">
+
+            <!-- Section: Upcoming -->
+            <section>
+                <h3 class="text-xl font-bold text-slate-800 mb-8 flex items-center">
+                    <span class="w-2 h-8 bg-[#1546b7] rounded-full mr-4"></span>
+                    Próximas Citas
+                </h3>
+
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <!-- Appt 1 -->
+                    <div class="bg-white rounded-[32px] p-8 premium-shadow border border-slate-100 group">
+                        <div class="flex justify-between items-start mb-6">
+                            <span
+                                class="px-4 py-1.5 status-confirmed rounded-full text-xs font-bold uppercase tracking-wider">Confirmada</span>
+                            <button class="text-slate-300 hover:text-slate-500 text-2xl">•••</button>
+                        </div>
+                        <div class="flex items-center space-x-6 mb-8">
+                            <div class="w-20 h-20 rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
+                                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800"
+                                    alt="Doctor" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">Dr. Juan Pérez</h4>
+                                <p class="text-[#1546b7] font-semibold text-sm">Estomatología General</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-50 rounded-2xl p-6 space-y-4">
+                            <div class="flex items-center justify-between text-sm">
+                                <span class="text-slate-400 font-medium">Fecha y Hora</span>
+                                <span class="text-slate-800 font-bold">Jueves, 19 Feb • 11:00 AM</span>
+                            </div>
+                            <div class="flex items-center justify-between text-sm">
+                                <span class="text-slate-400 font-medium">Tipo de Consulta</span>
+                                <span class="text-slate-800 font-bold">Limpieza Integral</span>
+                            </div>
+                        </div>
+                        <div class="flex space-x-4 mt-8">
+                            <button
+                                class="flex-1 py-4 border-2 border-[#1546b7] text-[#1546b7] font-bold rounded-2xl hover:bg-blue-50 transition-all">Reprogramar</button>
+                            <button
+                                class="flex-1 py-4 border-2 border-red-50 text-red-500 font-bold rounded-2xl hover:bg-red-50 transition-all">Cancelar</button>
+                        </div>
+                    </div>
+
+                    <!-- Appt 2 -->
+                    <div class="bg-white rounded-[32px] p-8 premium-shadow border border-slate-100 group opacity-80">
+                        <div class="flex justify-between items-start mb-6">
+                            <span
+                                class="px-4 py-1.5 status-pending rounded-full text-xs font-bold uppercase tracking-wider">En
+                                Revisión</span>
+                            <button class="text-slate-300 hover:text-slate-500 text-2xl">•••</button>
+                        </div>
+                        <div class="flex items-center space-x-6 mb-8">
+                            <div class="w-20 h-20 rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
+                                <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=800"
+                                    alt="Doctor" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">Dra. Elena García</h4>
+                                <p class="text-[#1546b7] font-semibold text-sm">Medicina Interna</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-50 rounded-2xl p-6 space-y-4">
+                            <div class="flex items-center justify-between text-sm">
+                                <span class="text-slate-400 font-medium">Fecha y Hora</span>
+                                <span class="text-slate-800 font-bold">Lunes, 23 Feb • 09:30 AM</span>
+                            </div>
+                            <div class="flex items-center justify-between text-sm">
+                                <span class="text-slate-400 font-medium">Tipo de Consulta</span>
+                                <span class="text-slate-800 font-bold">Chequeo Anual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section: Past -->
+            <section>
+                <div class="flex items-center justify-between mb-8">
+                    <h3 class="text-xl font-bold text-slate-800 flex items-center">
+                        <span class="w-2 h-8 bg-slate-300 rounded-full mr-4"></span>
+                        Citas Pasadas
+                    </h3>
+                </div>
+
+                <div class="bg-white rounded-[32px] overflow-hidden border border-slate-100 premium-shadow">
+                    <table class="w-full text-left">
+                        <thead class="bg-slate-50 text-slate-400 text-xs font-bold uppercase tracking-widest">
+                            <tr>
+                                <th class="px-10 py-6">Especialista</th>
+                                <th class="px-10 py-6">Fecha</th>
+                                <th class="px-10 py-6">Estado</th>
+                                <th class="px-10 py-6 text-right">Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-50">
+                            <tr class="hover:bg-slate-50 transition-colors">
+                                <td class="px-10 py-6">
+                                    <div class="flex items-center space-x-4">
+                                        <div class="w-12 h-12 rounded-xl overflow-hidden shadow-sm">
+                                            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=800"
+                                                class="w-full h-full object-cover">
+                                        </div>
+                                        <div>
+                                            <p class="font-bold text-slate-800">Dr. Roberto Sánchez</p>
+                                            <p class="text-[#1546b7] text-xs font-semibold">Periodoncia</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-10 py-6 font-medium text-slate-500">05 Feb, 2026</td>
+                                <td class="px-10 py-6">
+                                    <span
+                                        class="px-3 py-1 status-completed rounded-full text-[10px] font-bold uppercase">Completada</span>
+                                </td>
+                                <td class="px-10 py-6 text-right">
+                                    <a href="404.html" class="text-[#1546b7] font-bold hover:underline">Ver Notas</a>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition-colors">
+                                <td class="px-10 py-6">
+                                    <div class="flex items-center space-x-4">
+                                        <div class="w-12 h-12 rounded-xl overflow-hidden shadow-sm">
+                                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800"
+                                                class="w-full h-full object-cover">
+                                        </div>
+                                        <div>
+                                            <p class="font-bold text-slate-800">Dr. Juan Pérez</p>
+                                            <p class="text-[#1546b7] text-xs font-semibold">Estomatología</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-10 py-6 font-medium text-slate-500">20 Ene, 2026</td>
+                                <td class="px-10 py-6">
+                                    <span
+                                        class="px-3 py-1 status-completed rounded-full text-[10px] font-bold uppercase">Completada</span>
+                                </td>
+                                <td class="px-10 py-6 text-right">
+                                    <a href="404.html" class="text-[#1546b7] font-bold hover:underline">Ver Notas</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>

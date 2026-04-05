@@ -1,0 +1,1 @@
+#!/bin/bash\n# Migration testing script

@@ -1,0 +1,1 @@
+# Placeholder for posters_guidelines.md

@@ -1,0 +1,1 @@
+# Optimized Prompt Example

@@ -1,0 +1,1 @@
+# Push to Notion and Obsidian

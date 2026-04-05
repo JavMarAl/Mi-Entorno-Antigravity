@@ -1,0 +1,111 @@
+{
+  "79e64906-0887-4193-9a4f-3516ed9ccf00": {
+    "query_id": "79e64906-0887-4193-9a4f-3516ed9ccf00",
+    "status": "parsed",
+    "pico": {
+      "population": "Eficacia de aspirina en prevención de ictus",
+      "intervention": "",
+      "comparison": "",
+      "outcome": "",
+      "mesh_terms": []
+    },
+    "screening": [
+      {
+        "article_id": "PMC12345",
+        "decision": "include",
+        "reason": "Meets all PICO criteria",
+        "screened_at": "2026-03-12T16:19:11.699826"
+      }
+    ]
+  },
+  "a1d67a96-481a-4c62-8a52-62d5feab8156": {
+    "query_id": "a1d67a96-481a-4c62-8a52-62d5feab8156",
+    "status": "parsed",
+    "pico": {
+      "population": "Patients with hypertension,",
+      "intervention": "Dash diet,",
+      "comparison": "Regular diet,",
+      "outcome": "Blood pressure reduction",
+      "mesh_terms": []
+    }
+  },
+  "3b788736-14e8-4423-ad63-b97b444f3db2": {
+    "query_id": "3b788736-14e8-4423-ad63-b97b444f3db2",
+    "status": "parsed",
+    "pico": {
+      "population": "Patients with hypertension,",
+      "intervention": "Dash diet,",
+      "comparison": "Regular diet,",
+      "outcome": "Blood pressure reduction",
+      "mesh_terms": []
+    }
+  },
+  "ce2cb920-937a-4023-8212-cbd3c8f2b3df": {
+    "query_id": "ce2cb920-937a-4023-8212-cbd3c8f2b3df",
+    "status": "parsed",
+    "pico": {
+      "population": "Diabetic patients,",
+      "intervention": "Exercise,",
+      "comparison": "No exercise,",
+      "outcome": "Glucose levels",
+      "mesh_terms": []
+    }
+  },
+  "6c04780b-9c64-4dbc-b659-5f387923249d": {
+    "query_id": "6c04780b-9c64-4dbc-b659-5f387923249d",
+    "status": "parsed",
+    "pico": {
+      "population": "Diabetic patients,",
+      "intervention": "Exercise,",
+      "comparison": "No exercise,",
+      "outcome": "Glucose levels",
+      "mesh_terms": []
+    },
+    "screening": [
+      {
+        "article_id": "art_001",
+        "decision": "include",
+        "reason": "Meets all PICO criteria",
+        "screened_at": "2026-03-12T17:07:04.304631"
+      }
+    ]
+  },
+  "default_project": {
+    "rob_assessments": {
+      "art_001": {
+        "article_id": "art_001",
+        "random_sequence": "low",
+        "allocation_concealment": "low",
+        "blinding_participants": "high",
+        "blinding_outcome": "low",
+        "incomplete_outcome_data": "low",
+        "selective_reporting": "low",
+        "other_bias": "low",
+        "overall_risk": "low",
+        "comments": "Open-label study"
+      }
+    }
+  },
+  "7117b3f5-46c3-4cc2-b071-fc4c37d6e8c3": {
+    "query_id": "7117b3f5-46c3-4cc2-b071-fc4c37d6e8c3",
+    "status": "parsed",
+    "pico": {
+      "population": "Patients with hypertension,",
+      "intervention": "Dash diet,",
+      "comparison": "Regular diet,",
+      "outcome": "Blood pressure reduction",
+      "mesh_terms": []
+    }
+  },
+  "b3267113-629f-4d98-8074-06d98483af37": {
+    "query_id": "b3267113-629f-4d98-8074-06d98483af37",
+    "status": "parsed",
+    "pico": {
+      "population": "Patients with hypertension,",
+      "intervention": "Dash diet,",
+      "comparison": "Regular diet,",
+      "outcome": "Blood pressure reduction",
+      "mesh_terms": []
+    }
+  }
+}

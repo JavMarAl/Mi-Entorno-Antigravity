@@ -1,0 +1,1 @@
+# Placeholder for nature_science_style.md

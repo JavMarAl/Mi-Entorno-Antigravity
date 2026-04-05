@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Especialistas | Clinica Martinez - Atención de Excelencia</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend:wght@400;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1540b7",
+                        "background-light": "#f6f6f8",
+                        "slate-deep": "#1e293b",
+                        "teal-healing": "#0d9488",
+                        "steel-muted": "#475569",
+                        "clinicamartinez-hero": "#e7f0e9",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "body": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "2xl": "2rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .font-lexend {
+            font-family: 'Lexend', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+
+        .doctor-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(21, 64, 183, 0.15);
+        }
+
+        .btn-premium {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-premium:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(21, 64, 183, 0.3);
+        }
+    </style>
+</head>
+
+<body class="bg-background-light text-slate-deep">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <a href="index.html" class="flex items-center gap-3">
+                    <div class="bg-primary p-2 rounded-lg text-white">
+                        <span class="material-symbols-outlined text-3xl">medical_services</span>
+                    </div>
+                    <h1 class="text-2xl font-black tracking-tight text-primary font-lexend">CLINICA MARTINEZ</h1>
+                </a>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-10 text-sm font-bold text-steel-muted uppercase tracking-wider">
+                <a href="#" class="hover:text-primary transition-colors">Especialidades</a>
+                <a href="especialistas.html" class="text-primary font-black border-b-2 border-primary pb-1">Médicos</a>
+                <a href="agendar.html" class="hover:text-primary transition-colors">Agendar Cita</a>
+            </nav>
+
+            <div>
+                <a href="dashboard.html"
+                    class="bg-primary text-white px-8 py-3 rounded-full font-bold text-sm btn-premium shadow-lg shadow-primary/20">
+                    Portal del Paciente
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Directory Hero -->
+    <section class="bg-white pt-20 pb-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div
+                class="inline-flex items-center gap-2 px-4 py-2 bg-primary/5 text-primary rounded-full text-[10px] font-black uppercase tracking-[0.2em] mb-8 border border-primary/10 mx-auto">
+                <span class="w-1.5 h-1.5 bg-primary rounded-full"></span>
+                Staff Médico Calificado
+            </div>
+            <h2 class="text-5xl font-lexend font-black text-slate-deep leading-[1.1] tracking-tight mb-6">Nuestros
+                Especialistas</h2>
+            <p class="text-xl text-steel-muted font-medium max-w-2xl mx-auto">
+                Contamos con profesionales altamente certificados para cada una de sus necesidades de salud.
+            </p>
+        </div>
+    </section>
+
+    <!-- Filters & Search -->
+    <section class="bg-white border-y border-slate-100 sticky top-24 z-40 py-6">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-6 items-center justify-between">
+            <div class="w-full md:w-96 relative group">
+                <span
+                    class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-steel-muted group-focus-within:text-primary transition-colors">search</span>
+                <input type="text" placeholder="Buscar por nombre o especialidad..."
+                    class="w-full pl-12 pr-6 py-4 rounded-2xl bg-slate-50 border-none focus:ring-2 focus:ring-primary outline-none transition-all text-sm font-medium">
+            </div>
+            <div class="flex space-x-3 overflow-x-auto pb-2 w-full md:w-auto">
+                <button
+                    class="px-8 py-3 bg-primary text-white rounded-xl font-bold text-sm shadow-lg shadow-primary/20 whitespace-nowrap">Todos</button>
+                <button
+                    class="px-8 py-3 bg-white border border-slate-200 text-steel-muted hover:border-primary hover:text-primary rounded-xl font-bold text-sm transition-all whitespace-nowrap">Estomatología</button>
+                <button
+                    class="px-8 py-3 bg-white border border-slate-200 text-steel-muted hover:border-primary hover:text-primary rounded-xl font-bold text-sm transition-all whitespace-nowrap">Medicina
+                    General</button>
+                <button
+                    class="px-8 py-3 bg-white border border-slate-200 text-steel-muted hover:border-primary hover:text-primary rounded-xl font-bold text-sm transition-all whitespace-nowrap">Pediatría</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialists Grid -->
+    <section class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+
+                <!-- Card 1 -->
+                <div
+                    class="bg-white rounded-[2.5rem] overflow-hidden border border-slate-100 shadow-sm doctor-card transition-all flex flex-col">
+                    <div class="h-80 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800"
+                            alt="Dr. Juan Pérez" class="w-full h-full object-cover">
+                        <div
+                            class="absolute top-6 left-6 px-4 py-2 bg-emerald-500 text-white font-black text-[10px] uppercase tracking-widest rounded-full shadow-lg">
+                            Disponible Hoy
+                        </div>
+                    </div>
+                    <div class="p-10 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-2xl font-lexend font-black text-slate-deep mb-1">Dr. Juan Pérez</h3>
+                                <p class="text-primary font-bold text-sm uppercase tracking-widest">Estomatología</p>
+                            </div>
+                            <div
+                                class="flex items-center gap-1 bg-yellow-50 px-3 py-1 rounded-full text-yellow-600 font-black text-sm uppercase">
+                                <span class="material-symbols-outlined text-lg fill-1">star</span>
+                                4.9
+                            </div>
+                        </div>
+                        <p class="text-steel-muted font-medium text-sm leading-relaxed mb-10">
+                            Experto en cirugía maxilofacial y rehabilitación oral con más de 12 años de trayectoria
+                            clínica internacional.
+                        </p>
+                        <div class="mt-auto grid grid-cols-2 gap-4">
+                            <a href="perfil.html"
+                                class="py-4 border border-slate-200 text-steel-muted font-black text-xs uppercase tracking-widest rounded-2xl hover:bg-slate-50 transition-all text-center">
+                                Perfil
+                            </a>
+                            <a href="agendar.html"
+                                class="py-4 bg-primary text-white font-black text-xs uppercase tracking-widest rounded-2xl shadow-lg shadow-primary/20 hover:bg-primary-dark transition-all text-center">
+                                Agendar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-white rounded-[2.5rem] overflow-hidden border border-slate-100 shadow-sm doctor-card transition-all flex flex-col">
+                    <div class="h-80 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=800"
+                            alt="Dra. Elena García" class="w-full h-full object-cover">
+                        <div
+                            class="absolute top-6 left-6 px-4 py-2 bg-teal-healing text-white font-black text-[10px] uppercase tracking-widest rounded-full shadow-lg">
+                            Dermatología
+                        </div>
+                    </div>
+                    <div class="p-10 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-2xl font-lexend font-black text-slate-deep mb-1">Dra. Elena García</h3>
+                                <p class="text-primary font-bold text-sm uppercase tracking-widest">Medicina Interna</p>
+                            </div>
+                            <div
+                                class="flex items-center gap-1 bg-yellow-50 px-3 py-1 rounded-full text-yellow-600 font-black text-sm uppercase">
+                                <span class="material-symbols-outlined text-lg fill-1">star</span>
+                                5.0
+                            </div>
+                        </div>
+                        <p class="text-steel-muted font-medium text-sm leading-relaxed mb-10">
+                            Enfocada en medicina preventiva y tratamiento de enfermedades crónicas en adultos con un
+                            trato humano excepcional.
+                        </p>
+                        <div class="mt-auto grid grid-cols-2 gap-4">
+                            <a href="perfil.html"
+                                class="py-4 border border-slate-200 text-steel-muted font-black text-xs uppercase tracking-widest rounded-2xl hover:bg-slate-50 transition-all text-center">
+                                Perfil
+                            </a>
+                            <a href="agendar.html"
+                                class="py-4 bg-primary text-white font-black text-xs uppercase tracking-widest rounded-2xl shadow-lg shadow-primary/20 hover:bg-primary-dark transition-all text-center">
+                                Agendar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-white rounded-[2.5rem] overflow-hidden border border-slate-100 shadow-sm doctor-card transition-all flex flex-col">
+                    <div class="h-80 relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=800"
+                            alt="Dr. Roberto Sánchez" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-10 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-2xl font-lexend font-black text-slate-deep mb-1">Dr. Roberto Sánchez
+                                </h3>
+                                <p class="text-primary font-bold text-sm uppercase tracking-widest">Periodoncia</p>
+                            </div>
+                            <div
+                                class="flex items-center gap-1 bg-yellow-50 px-3 py-1 rounded-full text-yellow-600 font-black text-sm uppercase">
+                                <span class="material-symbols-outlined text-lg fill-1">star</span>
+                                4.8
+                            </div>
+                        </div>
+                        <p class="text-steel-muted font-medium text-sm leading-relaxed mb-10">
+                            Más de 15 años salvando sonrisas mediante tratamientos de conducto avanzados y salud
+                            integral de encías.
+                        </p>
+                        <div class="mt-auto grid grid-cols-2 gap-4">
+                            <a href="perfil.html"
+                                class="py-4 border border-slate-200 text-steel-muted font-black text-xs uppercase tracking-widest rounded-2xl hover:bg-slate-50 transition-all text-center">
+                                Perfil
+                            </a>
+                            <a href="agendar.html"
+                                class="py-4 bg-primary text-white font-black text-xs uppercase tracking-widest rounded-2xl shadow-lg shadow-primary/20 hover:bg-primary-dark transition-all text-center">
+                                Agendar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white pt-32 pb-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
+                <div class="lg:col-span-1">
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="bg-primary p-2 rounded-lg text-white">
+                            <span class="material-symbols-outlined text-2xl">medical_services</span>
+                        </div>
+                        <h2 class="text-xl font-black tracking-tight text-primary font-lexend">CLINICA MARTINEZ</h2>
+                    </div>
+                    <p class="text-steel-muted text-sm font-medium leading-relaxed mb-10">
+                        Líderes en servicios de consulta externa con los más altos estándares de calidad y ética
+                        profesional.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:text-primary hover:border-primary transition-all">
+                            <span class="material-symbols-outlined text-xl">brand_awareness</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="text-sm font-black text-slate-deep uppercase tracking-widest mb-8">Contacto</h5>
+                    <ul class="space-y-6">
+                        <li class="flex items-start gap-4">
+                            <span class="material-symbols-outlined text-primary text-xl">location_on</span>
+                            <p class="text-steel-muted text-sm font-medium">Av. Insurgentes Sur 1234, Col. Del Valle,
+                                CDMX.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-sm font-black text-slate-deep uppercase tracking-widest mb-8">Enlaces Rápidos</h5>
+                    <ul class="space-y-4">
+                        <li><a href="index.html"
+                                class="text-steel-muted text-sm font-medium hover:text-primary transition-colors">Volver
+                                al Inicio</a></li>
+                        <li><a href="agendar.html"
+                                class="text-steel-muted text-sm font-medium hover:text-primary transition-colors">Agendar
+                                Cita</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-sm font-black text-slate-deep uppercase tracking-widest mb-8">Aviso Legal</h5>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-primary text-xs font-bold hover:underline">Aviso de Privacidad</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-50 pt-8 text-center">
+                <p class="text-[10px] font-black text-slate-300 uppercase tracking-widest">
+                    © 2026 CLINICA MARTINEZ. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

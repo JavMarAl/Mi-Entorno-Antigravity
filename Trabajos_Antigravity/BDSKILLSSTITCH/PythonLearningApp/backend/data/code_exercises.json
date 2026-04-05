@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "ex_0",
+    "title": "Desafío #1 [Nivel 1/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_1",
+    "title": "Desafío #2 [Nivel 1/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_2",
+    "title": "Desafío #3 [Nivel 1/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_3",
+    "title": "Desafío #4 [Nivel 1/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_4",
+    "title": "Desafío #5 [Nivel 1/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_5",
+    "title": "Desafío #6 [Nivel 1/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_6",
+    "title": "Desafío #7 [Nivel 1/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_7",
+    "title": "Desafío #8 [Nivel 1/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_8",
+    "title": "Desafío #9 [Nivel 1/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_9",
+    "title": "Desafío #10 [Nivel 1/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_10",
+    "title": "Desafío #11 [Nivel 1/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_11",
+    "title": "Desafío #12 [Nivel 1/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_12",
+    "title": "Desafío #13 [Nivel 1/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_13",
+    "title": "Desafío #14 [Nivel 1/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_14",
+    "title": "Desafío #15 [Nivel 1/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_15",
+    "title": "Desafío #16 [Nivel 1/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_16",
+    "title": "Desafío #17 [Nivel 1/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_17",
+    "title": "Desafío #18 [Nivel 1/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_18",
+    "title": "Desafío #19 [Nivel 1/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_19",
+    "title": "Desafío #20 [Nivel 1/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 1/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_20",
+    "title": "Desafío #21 [Nivel 2/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_21",
+    "title": "Desafío #22 [Nivel 2/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_22",
+    "title": "Desafío #23 [Nivel 2/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_23",
+    "title": "Desafío #24 [Nivel 2/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_24",
+    "title": "Desafío #25 [Nivel 2/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_25",
+    "title": "Desafío #26 [Nivel 2/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_26",
+    "title": "Desafío #27 [Nivel 2/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_27",
+    "title": "Desafío #28 [Nivel 2/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_28",
+    "title": "Desafío #29 [Nivel 2/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_29",
+    "title": "Desafío #30 [Nivel 2/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_30",
+    "title": "Desafío #31 [Nivel 2/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_31",
+    "title": "Desafío #32 [Nivel 2/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_32",
+    "title": "Desafío #33 [Nivel 2/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_33",
+    "title": "Desafío #34 [Nivel 2/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_34",
+    "title": "Desafío #35 [Nivel 2/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_35",
+    "title": "Desafío #36 [Nivel 2/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_36",
+    "title": "Desafío #37 [Nivel 2/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_37",
+    "title": "Desafío #38 [Nivel 2/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_38",
+    "title": "Desafío #39 [Nivel 2/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_39",
+    "title": "Desafío #40 [Nivel 2/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 2/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_40",
+    "title": "Desafío #41 [Nivel 3/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_41",
+    "title": "Desafío #42 [Nivel 3/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_42",
+    "title": "Desafío #43 [Nivel 3/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_43",
+    "title": "Desafío #44 [Nivel 3/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_44",
+    "title": "Desafío #45 [Nivel 3/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_45",
+    "title": "Desafío #46 [Nivel 3/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_46",
+    "title": "Desafío #47 [Nivel 3/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_47",
+    "title": "Desafío #48 [Nivel 3/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_48",
+    "title": "Desafío #49 [Nivel 3/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_49",
+    "title": "Desafío #50 [Nivel 3/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_50",
+    "title": "Desafío #51 [Nivel 3/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_51",
+    "title": "Desafío #52 [Nivel 3/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_52",
+    "title": "Desafío #53 [Nivel 3/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_53",
+    "title": "Desafío #54 [Nivel 3/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_54",
+    "title": "Desafío #55 [Nivel 3/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_55",
+    "title": "Desafío #56 [Nivel 3/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_56",
+    "title": "Desafío #57 [Nivel 3/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_57",
+    "title": "Desafío #58 [Nivel 3/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_58",
+    "title": "Desafío #59 [Nivel 3/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_59",
+    "title": "Desafío #60 [Nivel 3/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 3/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_60",
+    "title": "Desafío #61 [Nivel 4/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_61",
+    "title": "Desafío #62 [Nivel 4/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_62",
+    "title": "Desafío #63 [Nivel 4/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_63",
+    "title": "Desafío #64 [Nivel 4/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_64",
+    "title": "Desafío #65 [Nivel 4/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_65",
+    "title": "Desafío #66 [Nivel 4/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_66",
+    "title": "Desafío #67 [Nivel 4/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_67",
+    "title": "Desafío #68 [Nivel 4/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_68",
+    "title": "Desafío #69 [Nivel 4/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_69",
+    "title": "Desafío #70 [Nivel 4/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_70",
+    "title": "Desafío #71 [Nivel 4/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_71",
+    "title": "Desafío #72 [Nivel 4/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_72",
+    "title": "Desafío #73 [Nivel 4/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_73",
+    "title": "Desafío #74 [Nivel 4/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_74",
+    "title": "Desafío #75 [Nivel 4/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_75",
+    "title": "Desafío #76 [Nivel 4/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_76",
+    "title": "Desafío #77 [Nivel 4/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_77",
+    "title": "Desafío #78 [Nivel 4/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_78",
+    "title": "Desafío #79 [Nivel 4/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_79",
+    "title": "Desafío #80 [Nivel 4/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 4/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_80",
+    "title": "Desafío #81 [Nivel 5/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_81",
+    "title": "Desafío #82 [Nivel 5/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_82",
+    "title": "Desafío #83 [Nivel 5/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_83",
+    "title": "Desafío #84 [Nivel 5/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_84",
+    "title": "Desafío #85 [Nivel 5/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_85",
+    "title": "Desafío #86 [Nivel 5/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_86",
+    "title": "Desafío #87 [Nivel 5/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_87",
+    "title": "Desafío #88 [Nivel 5/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_88",
+    "title": "Desafío #89 [Nivel 5/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_89",
+    "title": "Desafío #90 [Nivel 5/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_90",
+    "title": "Desafío #91 [Nivel 5/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_91",
+    "title": "Desafío #92 [Nivel 5/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_92",
+    "title": "Desafío #93 [Nivel 5/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_93",
+    "title": "Desafío #94 [Nivel 5/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_94",
+    "title": "Desafío #95 [Nivel 5/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_95",
+    "title": "Desafío #96 [Nivel 5/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_96",
+    "title": "Desafío #97 [Nivel 5/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_97",
+    "title": "Desafío #98 [Nivel 5/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_98",
+    "title": "Desafío #99 [Nivel 5/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_99",
+    "title": "Desafío #100 [Nivel 5/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 5/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_100",
+    "title": "Desafío #101 [Nivel 6/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_101",
+    "title": "Desafío #102 [Nivel 6/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_102",
+    "title": "Desafío #103 [Nivel 6/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_103",
+    "title": "Desafío #104 [Nivel 6/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_104",
+    "title": "Desafío #105 [Nivel 6/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_105",
+    "title": "Desafío #106 [Nivel 6/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_106",
+    "title": "Desafío #107 [Nivel 6/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_107",
+    "title": "Desafío #108 [Nivel 6/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_108",
+    "title": "Desafío #109 [Nivel 6/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_109",
+    "title": "Desafío #110 [Nivel 6/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_110",
+    "title": "Desafío #111 [Nivel 6/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_111",
+    "title": "Desafío #112 [Nivel 6/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_112",
+    "title": "Desafío #113 [Nivel 6/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_113",
+    "title": "Desafío #114 [Nivel 6/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_114",
+    "title": "Desafío #115 [Nivel 6/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_115",
+    "title": "Desafío #116 [Nivel 6/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_116",
+    "title": "Desafío #117 [Nivel 6/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_117",
+    "title": "Desafío #118 [Nivel 6/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_118",
+    "title": "Desafío #119 [Nivel 6/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_119",
+    "title": "Desafío #120 [Nivel 6/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 6/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_120",
+    "title": "Desafío #121 [Nivel 7/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_121",
+    "title": "Desafío #122 [Nivel 7/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_122",
+    "title": "Desafío #123 [Nivel 7/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_123",
+    "title": "Desafío #124 [Nivel 7/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_124",
+    "title": "Desafío #125 [Nivel 7/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_125",
+    "title": "Desafío #126 [Nivel 7/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_126",
+    "title": "Desafío #127 [Nivel 7/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_127",
+    "title": "Desafío #128 [Nivel 7/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_128",
+    "title": "Desafío #129 [Nivel 7/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_129",
+    "title": "Desafío #130 [Nivel 7/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_130",
+    "title": "Desafío #131 [Nivel 7/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_131",
+    "title": "Desafío #132 [Nivel 7/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_132",
+    "title": "Desafío #133 [Nivel 7/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_133",
+    "title": "Desafío #134 [Nivel 7/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_134",
+    "title": "Desafío #135 [Nivel 7/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_135",
+    "title": "Desafío #136 [Nivel 7/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_136",
+    "title": "Desafío #137 [Nivel 7/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_137",
+    "title": "Desafío #138 [Nivel 7/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_138",
+    "title": "Desafío #139 [Nivel 7/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_139",
+    "title": "Desafío #140 [Nivel 7/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 7/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_140",
+    "title": "Desafío #141 [Nivel 8/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_141",
+    "title": "Desafío #142 [Nivel 8/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_142",
+    "title": "Desafío #143 [Nivel 8/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_143",
+    "title": "Desafío #144 [Nivel 8/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_144",
+    "title": "Desafío #145 [Nivel 8/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_145",
+    "title": "Desafío #146 [Nivel 8/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_146",
+    "title": "Desafío #147 [Nivel 8/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_147",
+    "title": "Desafío #148 [Nivel 8/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_148",
+    "title": "Desafío #149 [Nivel 8/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_149",
+    "title": "Desafío #150 [Nivel 8/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_150",
+    "title": "Desafío #151 [Nivel 8/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_151",
+    "title": "Desafío #152 [Nivel 8/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_152",
+    "title": "Desafío #153 [Nivel 8/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_153",
+    "title": "Desafío #154 [Nivel 8/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_154",
+    "title": "Desafío #155 [Nivel 8/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_155",
+    "title": "Desafío #156 [Nivel 8/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_156",
+    "title": "Desafío #157 [Nivel 8/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_157",
+    "title": "Desafío #158 [Nivel 8/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_158",
+    "title": "Desafío #159 [Nivel 8/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_159",
+    "title": "Desafío #160 [Nivel 8/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 8/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_160",
+    "title": "Desafío #161 [Nivel 9/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_161",
+    "title": "Desafío #162 [Nivel 9/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_162",
+    "title": "Desafío #163 [Nivel 9/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_163",
+    "title": "Desafío #164 [Nivel 9/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_164",
+    "title": "Desafío #165 [Nivel 9/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_165",
+    "title": "Desafío #166 [Nivel 9/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_166",
+    "title": "Desafío #167 [Nivel 9/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_167",
+    "title": "Desafío #168 [Nivel 9/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_168",
+    "title": "Desafío #169 [Nivel 9/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_169",
+    "title": "Desafío #170 [Nivel 9/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_170",
+    "title": "Desafío #171 [Nivel 9/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_171",
+    "title": "Desafío #172 [Nivel 9/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_172",
+    "title": "Desafío #173 [Nivel 9/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_173",
+    "title": "Desafío #174 [Nivel 9/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_174",
+    "title": "Desafío #175 [Nivel 9/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_175",
+    "title": "Desafío #176 [Nivel 9/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_176",
+    "title": "Desafío #177 [Nivel 9/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_177",
+    "title": "Desafío #178 [Nivel 9/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_178",
+    "title": "Desafío #179 [Nivel 9/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_179",
+    "title": "Desafío #180 [Nivel 9/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 9/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_180",
+    "title": "Desafío #181 [Nivel 10/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_181",
+    "title": "Desafío #182 [Nivel 10/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_182",
+    "title": "Desafío #183 [Nivel 10/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_183",
+    "title": "Desafío #184 [Nivel 10/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_184",
+    "title": "Desafío #185 [Nivel 10/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_185",
+    "title": "Desafío #186 [Nivel 10/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_186",
+    "title": "Desafío #187 [Nivel 10/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_187",
+    "title": "Desafío #188 [Nivel 10/10]: Filtrado de Listas",
+    "description": "En este nivel necesitas dominar el concepto de Filtrado de Listas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef filtrar(lista):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def filtrar(lista):\\n    return [x for x in lista if x > 0]\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_188",
+    "title": "Desafío #189 [Nivel 10/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_189",
+    "title": "Desafío #190 [Nivel 10/10]: Manejo de Cadenas",
+    "description": "En este nivel necesitas dominar el concepto de Manejo de Cadenas. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef formatear(texto):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def formatear(texto):\\n    return texto.upper()\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_190",
+    "title": "Desafío #191 [Nivel 10/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_191",
+    "title": "Desafío #192 [Nivel 10/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_192",
+    "title": "Desafío #193 [Nivel 10/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_193",
+    "title": "Desafío #194 [Nivel 10/10]: Programación Orientada a Objetos",
+    "description": "En este nivel necesitas dominar el concepto de Programación Orientada a Objetos. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\nclass Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "class Entidad:\\n    def __init__(self, x):\\n        self.x = x\\n    e = Entidad(5)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_194",
+    "title": "Desafío #195 [Nivel 10/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_195",
+    "title": "Desafío #196 [Nivel 10/10]: Diccionarios",
+    "description": "En este nivel necesitas dominar el concepto de Diccionarios. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef procesar(datos):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def procesar(datos):\\n    return datos.get('clave', None)\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_196",
+    "title": "Desafío #197 [Nivel 10/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_197",
+    "title": "Desafío #198 [Nivel 10/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_198",
+    "title": "Desafío #199 [Nivel 10/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  },
+  {
+    "id": "ex_199",
+    "title": "Desafío #200 [Nivel 10/10]: Cálculo Matemático",
+    "description": "En este nivel necesitas dominar el concepto de Cálculo Matemático. Completa la función para que retorne el valor esperado sin lanzar excepciones.",
+    "hint": "Recuerda usar las reglas básicas de sintaxis y los tipos de datos correctos.",
+    "initialCode": "# Dificultad: 10/10\\ndef operar(a, b):\\n    # TODO: Implementar lógica\\n    pass\\n",
+    "solution": "def operar(a, b):\\n    return a + b\\n",
+    "solutionExplanation": "A medida que la dificultad aumenta, la validación de tipos y el manejo de bordes son esenciales."
+  }
+]

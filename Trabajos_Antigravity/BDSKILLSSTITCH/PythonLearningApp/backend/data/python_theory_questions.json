@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "py_0",
+    "question": "[Dificultad 1/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_1",
+    "question": "[Dificultad 1/10] Sobre Herencia Múltiple: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Herencia Múltiple de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_2",
+    "question": "[Dificultad 1/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_3",
+    "question": "[Dificultad 1/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_4",
+    "question": "[Dificultad 1/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_5",
+    "question": "[Dificultad 1/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_6",
+    "question": "[Dificultad 1/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_7",
+    "question": "[Dificultad 1/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_8",
+    "question": "[Dificultad 1/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_9",
+    "question": "[Dificultad 1/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_10",
+    "question": "[Dificultad 1/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_11",
+    "question": "[Dificultad 1/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_12",
+    "question": "[Dificultad 1/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_13",
+    "question": "[Dificultad 1/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_14",
+    "question": "[Dificultad 1/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_15",
+    "question": "[Dificultad 1/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_16",
+    "question": "[Dificultad 1/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_17",
+    "question": "[Dificultad 1/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_18",
+    "question": "[Dificultad 1/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_19",
+    "question": "[Dificultad 1/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_20",
+    "question": "[Dificultad 2/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_21",
+    "question": "[Dificultad 2/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_22",
+    "question": "[Dificultad 2/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_23",
+    "question": "[Dificultad 2/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_24",
+    "question": "[Dificultad 2/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_25",
+    "question": "[Dificultad 2/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_26",
+    "question": "[Dificultad 2/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_27",
+    "question": "[Dificultad 2/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_28",
+    "question": "[Dificultad 2/10] Sobre Herencia Múltiple: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Herencia Múltiple de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_29",
+    "question": "[Dificultad 2/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_30",
+    "question": "[Dificultad 2/10] Sobre Herencia Múltiple: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Herencia Múltiple de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_31",
+    "question": "[Dificultad 2/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_32",
+    "question": "[Dificultad 2/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_33",
+    "question": "[Dificultad 2/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_34",
+    "question": "[Dificultad 2/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_35",
+    "question": "[Dificultad 2/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_36",
+    "question": "[Dificultad 2/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_37",
+    "question": "[Dificultad 2/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_38",
+    "question": "[Dificultad 2/10] Sobre Herencia Múltiple: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el eficiencia en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Herencia Múltiple de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_39",
+    "question": "[Dificultad 2/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_40",
+    "question": "[Dificultad 3/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_41",
+    "question": "[Dificultad 3/10] Sobre Herencia Múltiple: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Herencia Múltiple de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_42",
+    "question": "[Dificultad 3/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_43",
+    "question": "[Dificultad 3/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_44",
+    "question": "[Dificultad 3/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_45",
+    "question": "[Dificultad 3/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_46",
+    "question": "[Dificultad 3/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_47",
+    "question": "[Dificultad 3/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_48",
+    "question": "[Dificultad 3/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el sintaxis en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_49",
+    "question": "[Dificultad 3/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_50",
+    "question": "[Dificultad 3/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_51",
+    "question": "[Dificultad 3/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_52",
+    "question": "[Dificultad 3/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_53",
+    "question": "[Dificultad 3/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_54",
+    "question": "[Dificultad 3/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_55",
+    "question": "[Dificultad 3/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_56",
+    "question": "[Dificultad 3/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_57",
+    "question": "[Dificultad 3/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_58",
+    "question": "[Dificultad 3/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_59",
+    "question": "[Dificultad 3/10] Sobre Herencia Múltiple: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Herencia Múltiple de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_60",
+    "question": "[Dificultad 4/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_61",
+    "question": "[Dificultad 4/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_62",
+    "question": "[Dificultad 4/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_63",
+    "question": "[Dificultad 4/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el sintaxis en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_64",
+    "question": "[Dificultad 4/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_65",
+    "question": "[Dificultad 4/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_66",
+    "question": "[Dificultad 4/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_67",
+    "question": "[Dificultad 4/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_68",
+    "question": "[Dificultad 4/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_69",
+    "question": "[Dificultad 4/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_70",
+    "question": "[Dificultad 4/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_71",
+    "question": "[Dificultad 4/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_72",
+    "question": "[Dificultad 4/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el sintaxis en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_73",
+    "question": "[Dificultad 4/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_74",
+    "question": "[Dificultad 4/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_75",
+    "question": "[Dificultad 4/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_76",
+    "question": "[Dificultad 4/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_77",
+    "question": "[Dificultad 4/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_78",
+    "question": "[Dificultad 4/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_79",
+    "question": "[Dificultad 4/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_80",
+    "question": "[Dificultad 5/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_81",
+    "question": "[Dificultad 5/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el sintaxis en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_82",
+    "question": "[Dificultad 5/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_83",
+    "question": "[Dificultad 5/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_84",
+    "question": "[Dificultad 5/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_85",
+    "question": "[Dificultad 5/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_86",
+    "question": "[Dificultad 5/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_87",
+    "question": "[Dificultad 5/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_88",
+    "question": "[Dificultad 5/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_89",
+    "question": "[Dificultad 5/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_90",
+    "question": "[Dificultad 5/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_91",
+    "question": "[Dificultad 5/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_92",
+    "question": "[Dificultad 5/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_93",
+    "question": "[Dificultad 5/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_94",
+    "question": "[Dificultad 5/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_95",
+    "question": "[Dificultad 5/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_96",
+    "question": "[Dificultad 5/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_97",
+    "question": "[Dificultad 5/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_98",
+    "question": "[Dificultad 5/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_99",
+    "question": "[Dificultad 5/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_100",
+    "question": "[Dificultad 6/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_101",
+    "question": "[Dificultad 6/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_102",
+    "question": "[Dificultad 6/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_103",
+    "question": "[Dificultad 6/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_104",
+    "question": "[Dificultad 6/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_105",
+    "question": "[Dificultad 6/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_106",
+    "question": "[Dificultad 6/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_107",
+    "question": "[Dificultad 6/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_108",
+    "question": "[Dificultad 6/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_109",
+    "question": "[Dificultad 6/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_110",
+    "question": "[Dificultad 6/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el sintaxis en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_111",
+    "question": "[Dificultad 6/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_112",
+    "question": "[Dificultad 6/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_113",
+    "question": "[Dificultad 6/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_114",
+    "question": "[Dificultad 6/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_115",
+    "question": "[Dificultad 6/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_116",
+    "question": "[Dificultad 6/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_117",
+    "question": "[Dificultad 6/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_118",
+    "question": "[Dificultad 6/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_119",
+    "question": "[Dificultad 6/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_120",
+    "question": "[Dificultad 7/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_121",
+    "question": "[Dificultad 7/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el eficiencia en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_122",
+    "question": "[Dificultad 7/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_123",
+    "question": "[Dificultad 7/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_124",
+    "question": "[Dificultad 7/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_125",
+    "question": "[Dificultad 7/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_126",
+    "question": "[Dificultad 7/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_127",
+    "question": "[Dificultad 7/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_128",
+    "question": "[Dificultad 7/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_129",
+    "question": "[Dificultad 7/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_130",
+    "question": "[Dificultad 7/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_131",
+    "question": "[Dificultad 7/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_132",
+    "question": "[Dificultad 7/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_133",
+    "question": "[Dificultad 7/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_134",
+    "question": "[Dificultad 7/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_135",
+    "question": "[Dificultad 7/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_136",
+    "question": "[Dificultad 7/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_137",
+    "question": "[Dificultad 7/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_138",
+    "question": "[Dificultad 7/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_139",
+    "question": "[Dificultad 7/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_140",
+    "question": "[Dificultad 8/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_141",
+    "question": "[Dificultad 8/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_142",
+    "question": "[Dificultad 8/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_143",
+    "question": "[Dificultad 8/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_144",
+    "question": "[Dificultad 8/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_145",
+    "question": "[Dificultad 8/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_146",
+    "question": "[Dificultad 8/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_147",
+    "question": "[Dificultad 8/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_148",
+    "question": "[Dificultad 8/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_149",
+    "question": "[Dificultad 8/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_150",
+    "question": "[Dificultad 8/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_151",
+    "question": "[Dificultad 8/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_152",
+    "question": "[Dificultad 8/10] Sobre Herencia Múltiple: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Herencia Múltiple de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_153",
+    "question": "[Dificultad 8/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_154",
+    "question": "[Dificultad 8/10] Sobre Herencia Múltiple: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Herencia Múltiple de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_155",
+    "question": "[Dificultad 8/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_156",
+    "question": "[Dificultad 8/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_157",
+    "question": "[Dificultad 8/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_158",
+    "question": "[Dificultad 8/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_159",
+    "question": "[Dificultad 8/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_160",
+    "question": "[Dificultad 9/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_161",
+    "question": "[Dificultad 9/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_162",
+    "question": "[Dificultad 9/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_163",
+    "question": "[Dificultad 9/10] Sobre Herencia Múltiple: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Herencia Múltiple de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_164",
+    "question": "[Dificultad 9/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_165",
+    "question": "[Dificultad 9/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_166",
+    "question": "[Dificultad 9/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_167",
+    "question": "[Dificultad 9/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_168",
+    "question": "[Dificultad 9/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_169",
+    "question": "[Dificultad 9/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_170",
+    "question": "[Dificultad 9/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_171",
+    "question": "[Dificultad 9/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_172",
+    "question": "[Dificultad 9/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el sintaxis en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_173",
+    "question": "[Dificultad 9/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_174",
+    "question": "[Dificultad 9/10] Sobre Herencia Múltiple: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Herencia Múltiple de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_175",
+    "question": "[Dificultad 9/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_176",
+    "question": "[Dificultad 9/10] Sobre Global Interpreter Lock (GIL): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el eficiencia en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Global Interpreter Lock (GIL) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_177",
+    "question": "[Dificultad 9/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_178",
+    "question": "[Dificultad 9/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_179",
+    "question": "[Dificultad 9/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_180",
+    "question": "[Dificultad 10/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el ventajas sobre otros lenguajes en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_181",
+    "question": "[Dificultad 10/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_182",
+    "question": "[Dificultad 10/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el sintaxis en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_183",
+    "question": "[Dificultad 10/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_184",
+    "question": "[Dificultad 10/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_185",
+    "question": "[Dificultad 10/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_186",
+    "question": "[Dificultad 10/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria."
+    ],
+    "correctAnswer": 4,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_187",
+    "question": "[Dificultad 10/10] Sobre List Comprehensions: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Bloquea el hilo principal debido al GIL.",
+      "Requiere importar una librería estándar adicional.",
+      "Mejora el eficiencia en versiones de Python >= 3.6."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja List Comprehensions de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_188",
+    "question": "[Dificultad 10/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_189",
+    "question": "[Dificultad 10/10] Sobre Pandas y NumPy Basics: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "Lanza un TypeError inmediato.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Pandas y NumPy Basics de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_190",
+    "question": "[Dificultad 10/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_191",
+    "question": "[Dificultad 10/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Requiere importar una librería estándar adicional.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_192",
+    "question": "[Dificultad 10/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_193",
+    "question": "[Dificultad 10/10] Sobre Módulos y Paquetes: ¿Qué particularidad tiene respecto a ventajas sobre otros lenguajes?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar ventajas sobre otros lenguajes.",
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Módulos y Paquetes de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_194",
+    "question": "[Dificultad 10/10] Sobre Métodos Mágicos (__init__): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Requiere importar una librería estándar adicional.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Lanza un TypeError inmediato.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Métodos Mágicos (__init__) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_195",
+    "question": "[Dificultad 10/10] Sobre Context Managers (with): ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato.",
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python maneja Context Managers (with) de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_196",
+    "question": "[Dificultad 10/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Requiere importar una librería estándar adicional."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_197",
+    "question": "[Dificultad 10/10] Sobre Decoradores: ¿Qué particularidad tiene respecto a eficiencia?",
+    "options": [
+      "Bloquea el hilo principal debido al GIL.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar eficiencia.",
+      "Mejora el eficiencia en versiones de Python >= 3.6.",
+      "Crea una copia por valor, no por referencia.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python maneja Decoradores de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_198",
+    "question": "[Dificultad 10/10] Sobre Manejo de Excepciones: ¿Qué particularidad tiene respecto a manejo de memoria?",
+    "options": [
+      "Lanza un TypeError inmediato.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar manejo de memoria.",
+      "Mejora el manejo de memoria en versiones de Python >= 3.6.",
+      "Bloquea el hilo principal debido al GIL."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Manejo de Excepciones de forma única. La clave está en su modelo de datos y ejecución."
+  },
+  {
+    "id": "py_199",
+    "question": "[Dificultad 10/10] Sobre Generadores (yield): ¿Qué particularidad tiene respecto a sintaxis?",
+    "options": [
+      "Crea una copia por valor, no por referencia.",
+      "Requiere importar una librería estándar adicional.",
+      "[Correcto] Permite escribir código Pythonic reduciendo el boilerplate al aplicar sintaxis.",
+      "Mejora el sintaxis en versiones de Python >= 3.6.",
+      "Lanza un TypeError inmediato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python maneja Generadores (yield) de forma única. La clave está en su modelo de datos y ejecución."
+  }
+]

@@ -1,0 +1,1 @@
+# Migration health check script

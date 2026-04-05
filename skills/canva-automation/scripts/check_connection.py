@@ -1,0 +1,1 @@
+# Placeholder for Canva connection status check

@@ -1,0 +1,1 @@
+# CDC Pipelines and Debezium Configuration

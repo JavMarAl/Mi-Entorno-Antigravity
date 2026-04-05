@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Clinica Martinez | Atención Médica de Excelencia</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend:wght@400;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1540b7",
+                        "primary-dark": "#0b2b80",
+                        "background-light": "#f6f6f8",
+                        "slate-deep": "#1e293b",
+                        "teal-healing": "#0d9488",
+                        "steel-muted": "#475569",
+                        "clinicamartinez-hero": "#e7f0e9",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "body": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "2xl": "2rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .font-lexend {
+            font-family: 'Lexend', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #f6f6f8 0%, #e7f0e9 100%);
+        }
+
+        .btn-premium {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-premium:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(21, 64, 183, 0.3);
+        }
+    </style>
+</head>
+
+<body class="bg-white text-slate-deep">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="bg-primary p-2 rounded-lg text-white">
+                    <span class="material-symbols-outlined text-3xl">medical_services</span>
+                </div>
+                <h1 class="text-2xl font-black tracking-tight text-primary font-lexend">CLINICA MARTINEZ</h1>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-10 text-sm font-bold text-steel-muted uppercase tracking-wider">
+                <a href="#" class="hover:text-primary transition-colors">Especialidades</a>
+                <a href="especialistas.html" class="hover:text-primary transition-colors">Médicos</a>
+                <a href="agendar.html" class="hover:text-primary transition-colors">Agendar Cita</a>
+            </nav>
+
+            <div>
+                <a href="dashboard.html"
+                    class="bg-primary text-white px-8 py-3 rounded-full font-bold text-sm btn-premium shadow-lg shadow-primary/20">
+                    Portal del Paciente
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient pt-16 pb-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-16">
+            <div class="flex-1 text-center lg:text-left">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-2 bg-primary/5 text-primary rounded-full text-[10px] font-black uppercase tracking-[0.2em] mb-8 border border-primary/10">
+                    <span class="w-1.5 h-1.5 bg-primary rounded-full animate-pulse"></span>
+                    Certificación Internacional
+                </div>
+
+                <h2
+                    class="text-6xl lg:text-7xl font-lexend font-black text-slate-deep leading-[1.1] tracking-tight mb-8">
+                    Atención Médica de <br>
+                    <span class="text-primary italic">Excelencia</span> a tu Alcance
+                </h2>
+
+                <p class="text-xl text-steel-muted font-medium mb-12 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                    Consulta externa con los mejores especialistas en clínicas y estomatología. Equipamiento de
+                    vanguardia para su bienestar.
+                </p>
+
+                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-5">
+                    <a href="agendar.html"
+                        class="w-full sm:w-auto bg-primary text-white px-10 py-5 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 btn-premium shadow-xl shadow-primary/30">
+                        <span class="material-symbols-outlined text-2xl">event_available</span>
+                        Agendar mi Consulta
+                    </a>
+                    <a href="#"
+                        class="w-full sm:w-auto bg-white text-steel-muted border border-slate-200 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-slate-50 transition-all text-center">
+                        Ver Especialidades
+                    </a>
+                </div>
+
+                <div class="mt-12 flex items-center justify-center lg:justify-start gap-4">
+                    <div class="flex -space-x-4">
+                        <img class="w-12 h-12 rounded-full border-4 border-white object-cover"
+                            src="https://images.unsplash.com/photo-1559839734-2b71f1536783?auto=format&fit=crop&q=80&w=200"
+                            alt="Doctor 1">
+                        <img class="w-12 h-12 rounded-full border-4 border-white object-cover"
+                            src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=200"
+                            alt="Doctor 2">
+                        <img class="w-12 h-12 rounded-full border-4 border-white object-cover"
+                            src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=200"
+                            alt="Doctor 3">
+                    </div>
+                    <div class="text-left">
+                        <p class="text-sm font-black text-slate-deep">+50 Especialistas</p>
+                        <p class="text-xs text-steel-muted font-bold">Listos para atenderle hoy</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-1 relative">
+                <div class="relative rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1200"
+                        alt="Consultorio Moderno" class="w-full h-full object-cover aspect-[4/3]">
+
+                    <!-- Floating Emergency Tag -->
+                    <div
+                        class="absolute bottom-8 right-8 bg-white/95 backdrop-blur px-6 py-4 rounded-3xl shadow-2xl flex items-center gap-4 border border-slate-100">
+                        <div class="w-12 h-12 bg-teal-healing text-white rounded-2xl flex items-center justify-center">
+                            <span class="material-symbols-outlined text-2xl">emergency</span>
+                        </div>
+                        <div>
+                            <p
+                                class="text-[10px] font-black text-steel-muted uppercase tracking-widest leading-none mb-1">
+                                Urgencias 24/7</p>
+                            <p class="text-sm font-black text-slate-deep">900 123 456</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20">
+                <p class="text-xs font-black text-teal-healing uppercase tracking-[0.3em] mb-4">Nuestros Valores</p>
+                <h3 class="text-4xl font-lexend font-black text-slate-deep">Comprometidos con su Bienestar</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Value 1 -->
+                <div
+                    class="p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm hover:shadow-xl hover:border-primary/10 transition-all group">
+                    <div
+                        class="w-16 h-16 bg-teal-healing/10 text-teal-healing rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                        <span class="material-symbols-outlined text-3xl">verified</span>
+                    </div>
+                    <h4 class="text-xl font-lexend font-bold text-slate-deep mb-4">Experiencia</h4>
+                    <p class="text-steel-muted font-medium leading-relaxed">Años de excelencia médica brindando
+                        confianza y resultados positivos a miles de familias.</p>
+                </div>
+
+                <!-- Value 2 -->
+                <div
+                    class="p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm hover:shadow-xl hover:border-primary/10 transition-all group">
+                    <div
+                        class="w-16 h-16 bg-teal-healing/10 text-teal-healing rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                        <span class="material-symbols-outlined text-3xl">biotech</span>
+                    </div>
+                    <h4 class="text-xl font-lexend font-bold text-slate-deep mb-4">Tecnología</h4>
+                    <p class="text-steel-muted font-medium leading-relaxed">Equipamiento de última generación para
+                        diagnósticos precisos y tratamientos mínimamente invasivos.</p>
+                </div>
+
+                <!-- Value 3 -->
+                <div
+                    class="p-10 rounded-[2.5rem] bg-white border border-slate-100 shadow-sm hover:shadow-xl hover:border-primary/10 transition-all group">
+                    <div
+                        class="w-16 h-16 bg-teal-healing/10 text-teal-healing rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary/10 group-hover:text-primary transition-colors">
+                        <span class="material-symbols-outlined text-3xl">diversity_3</span>
+                    </div>
+                    <h4 class="text-xl font-lexend font-bold text-slate-deep mb-4">Calidad Humana</h4>
+                    <p class="text-steel-muted font-medium leading-relaxed">Un enfoque centrado totalmente en la
+                        empatía, el respeto y el cuidado integral de cada paciente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialities Preview -->
+    <section class="py-32 bg-background-light">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-end justify-between mb-16 gap-8">
+                <div class="text-left">
+                    <p class="text-xs font-black text-primary uppercase tracking-[0.3em] mb-4">Especialidades</p>
+                    <h3 class="text-5xl font-lexend font-black text-slate-deep leading-tight">Atención Integral para su
+                        Salud</h3>
+                </div>
+                <a href="#"
+                    class="text-primary font-bold text-sm flex items-center gap-2 hover:gap-4 transition-all uppercase tracking-widest border-b-2 border-primary/20 pb-2">
+                    Ver Catálogo Completo
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Card 1 -->
+                <div
+                    class="bg-white p-8 rounded-[2.5rem] shadow-sm flex flex-col sm:flex-row items-center gap-8 border border-slate-200/50 hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1504813184591-01592fd039ed?auto=format&fit=crop&q=80&w=400"
+                        alt="Clínicas Médicas" class="w-full sm:w-48 h-48 rounded-[2rem] object-cover shadow-lg">
+                    <div class="flex-1">
+                        <div
+                            class="flex items-center gap-2 text-primary text-[10px] font-black uppercase tracking-widest mb-2">
+                            <span class="material-symbols-outlined text-base">emergency_home</span>
+                            Consultorio Médico
+                        </div>
+                        <h4 class="text-2xl font-lexend font-black text-slate-deep mb-4">Clínicas Médicas</h4>
+                        <p class="text-steel-muted text-sm font-medium mb-6">Medicina interna, pediatría, cardiología y
+                            más. Un equipo multidisciplinario a su servicio.</p>
+                        <div class="flex flex-wrap gap-2 text-[10px] uppercase font-bold text-steel-muted">
+                            <span class="px-3 py-1 bg-slate-100 rounded-full">Cardiología</span>
+                            <span class="px-3 py-1 bg-slate-100 rounded-full">Pediatría</span>
+                            <span class="px-3 py-1 bg-slate-100 rounded-full">Ginecología</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-white p-8 rounded-[2.5rem] shadow-sm flex flex-col sm:flex-row items-center gap-8 border border-slate-200/50 hover:shadow-xl transition-all">
+                    <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&q=80&w=400"
+                        alt="Estomatología" class="w-full sm:w-48 h-48 rounded-[2rem] object-cover shadow-lg">
+                    <div class="flex-1">
+                        <div
+                            class="flex items-center gap-2 text-primary text-[10px] font-black uppercase tracking-widest mb-2">
+                            <span class="material-symbols-outlined text-base">dentistry</span>
+                            Salud Dental
+                        </div>
+                        <h4 class="text-2xl font-lexend font-black text-slate-deep mb-4">Estomatología</h4>
+                        <p class="text-steel-muted text-sm font-medium mb-6">Cuidado dental avanzado: ortodoncia,
+                            endodoncia y estética dental para toda la familia.</p>
+                        <div class="flex flex-wrap gap-2 text-[10px] uppercase font-bold text-steel-muted">
+                            <span class="px-3 py-1 bg-slate-100 rounded-full">Ortodoncia</span>
+                            <span class="px-3 py-1 bg-slate-100 rounded-full">Implantes</span>
+                            <span class="px-3 py-1 bg-slate-100 rounded-full">Limpieza</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="bg-primary py-24 text-white overflow-hidden relative">
+        <div class="max-w-7xl mx-auto px-6 relative z-10 grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
+            <div>
+                <p class="text-[10px] font-black uppercase tracking-[0.3em] text-white/60 mb-3">Años de Trayectoria</p>
+                <p class="text-6xl font-lexend font-black">25+</p>
+            </div>
+            <div>
+                <p class="text-[10px] font-black uppercase tracking-[0.3em] text-white/60 mb-3">Pacientes Felices</p>
+                <p class="text-6xl font-lexend font-black">100k</p>
+            </div>
+            <div>
+                <p class="text-[10px] font-black uppercase tracking-[0.3em] text-white/60 mb-3">Médicos Especialistas
+                </p>
+                <p class="text-6xl font-lexend font-black">50+</p>
+            </div>
+            <div>
+                <p class="text-[10px] font-black uppercase tracking-[0.3em] text-white/60 mb-3">Sedes Regionales</p>
+                <p class="text-6xl font-lexend font-black">04</p>
+            </div>
+        </div>
+        <div class="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-[100px] -mr-48 -mt-48"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-[100px] -ml-48 -mb-48"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-background-light pt-32 pb-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
+                <div class="lg:col-span-1">
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="bg-primary p-2 rounded-lg text-white">
+                            <span class="material-symbols-outlined text-2xl">medical_services</span>
+                        </div>
+                        <h2 class="text-xl font-black tracking-tight text-primary font-lexend">CLINICA MARTINEZ</h2>
+                    </div>
+                    <p class="text-steel-muted text-sm font-medium leading-relaxed mb-10">
+                        Líderes en servicios de consulta externa con los más altos estándares de calidad y ética
+                        profesional.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:text-primary hover:border-primary transition-all">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385h-3.047v-3.47h3.047v-2.642c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953h-1.513c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385c5.737-.9 10.125-5.864 10.125-11.854z" />
+                            </svg>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:text-primary hover:border-primary transition-all">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.84 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                            </svg>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:text-primary hover:border-primary transition-all">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="text-sm font-black text-slate-deep uppercase tracking-widest mb-8">Contacto</h5>
+                    <ul class="space-y-6">
+                        <li class="flex items-start gap-4">
+                            <span class="material-symbols-outlined text-primary text-xl">location_on</span>
+                            <p class="text-steel-muted text-sm font-medium">Av. Insurgentes Sur 1234, Col. Del Valle,
+                                CDMX.</p>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <span class="material-symbols-outlined text-primary text-xl">call</span>
+                            <p class="text-steel-muted text-sm font-medium">+52 (55) 5678 9012</p>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <span class="material-symbols-outlined text-primary text-xl">mail</span>
+                            <p class="text-steel-muted text-sm font-medium">citas@clinicamartinez.com.mx</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-sm font-black text-slate-deep uppercase tracking-widest mb-8">Enlaces Rápidos</h5>
+                    <ul class="space-y-4">
+                        <li><a href="#"
+                                class="text-steel-muted text-sm font-medium hover:text-primary transition-colors">Preparación
+                                para estudios</a></li>
+                        <li><a href="#"
+                                class="text-steel-muted text-sm font-medium hover:text-primary transition-colors">Seguros
+                                y Convenios</a></li>
+                        <li><a href="#"
+                                class="text-steel-muted text-sm font-medium hover:text-primary transition-colors">Facturación
+                                Electrónica</a></li>
+                        <li><a href="#"
+                                class="text-steel-muted text-sm font-medium hover:text-primary transition-colors">Bolsa
+                                de Trabajo</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h5 class="text-sm font-black text-slate-deep uppercase tracking-widest mb-8">Aviso Legal</h5>
+                    <p class="text-[10px] text-steel-muted font-bold leading-relaxed mb-6 uppercase tracking-wider">
+                        Registro Sanitario COFEPRIS: 213300201A1234. <br>
+                        Licencia Sanitaria Estatal: SEM-CP-2024-001-P.
+                    </p>
+                    <ul class="space-y-4">
+                        <li><a href="#" class="text-primary text-xs font-bold hover:underline">Términos y
+                                Condiciones</a></li>
+                        <li><a href="#" class="text-primary text-xs font-bold hover:underline">Aviso de Privacidad</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-200 pt-8 text-center">
+                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                    © 2026 CLINICA MARTINEZ. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

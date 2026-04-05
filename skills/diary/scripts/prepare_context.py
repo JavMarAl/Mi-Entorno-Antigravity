@@ -1,0 +1,1 @@
+# Scan project state and update AGENT_CONTEXT.md

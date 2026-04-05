@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página no encontrada - Clínica Médica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .bg-medical-white {
+            background-color: #ffffff;
+        }
+
+        .bg-medical-blue {
+            background-color: #1e40af;
+        }
+
+        .text-medical-slate {
+            color: #1e293b;
+        }
+
+        .text-medical-gray {
+            color: #475569;
+        }
+
+        .bg-sky-surface {
+            background-color: #f0f9ff;
+        }
+    </style>
+</head>
+
+<body class="bg-medical-white text-medical-slate min-h-screen flex flex-col justify-center items-center px-6">
+
+    <!-- 404 Visual -->
+    <div class="relative mb-12">
+        <div class="text-[12rem] font-bold text-blue-50 leading-none select-none">404</div>
+        <div class="absolute inset-0 flex items-center justify-center">
+            <div
+                class="w-32 h-32 bg-medical-blue/10 rounded-full animate-pulse flex items-center justify-center text-6xl">
+                🔍</div>
+        </div>
+    </div>
+
+    <!-- Error Message -->
+    <div class="text-center max-w-2xl">
+        <h1 class="text-5xl md:text-6xl font-bold mb-6 tracking-tight">¡Vaya! Esta página se ha tomado un descanso.</h1>
+        <p class="text-2xl text-medical-gray mb-12 leading-relaxed">
+            No te preocupes, la salud es lo primero y a veces hasta los links necesitan un chequeo. Vamos a volver al
+            camino correcto.
+        </p>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8 w-full max-w-md">
+        <a href="index.html"
+            class="flex-1 py-5 bg-medical-blue text-white text-2xl font-bold rounded-2xl shadow-xl hover:bg-blue-800 transition-all text-center transform hover:scale-[1.02]">
+            Volver al Inicio
+        </a>
+    </div>
+
+    <div class="mt-12">
+        <a href="#" class="text-medical-blue font-bold text-lg hover:underline decoration-2">Contactar a Soporte
+            Técnico</a>
+    </div>
+
+    <!-- Background Decoration -->
+    <div class="fixed -bottom-20 -left-20 w-80 h-80 bg-blue-50 rounded-full blur-3xl opacity-50 z-[-1]"></div>
+    <div class="fixed top-20 right-20 w-60 h-60 bg-teal-50 rounded-full blur-3xl opacity-50 z-[-1]"></div>
+
+</body>
+
+</html>

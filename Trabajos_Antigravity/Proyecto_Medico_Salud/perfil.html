@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Perfil del Especialista | Clinica Martinez</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend:wght@400;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1540b7",
+                        "primary-dark": "#0b2b80",
+                        "background-light": "#f6f6f8",
+                        "slate-deep": "#1e293b",
+                        "teal-healing": "#0d9488",
+                        "steel-muted": "#475569",
+                        "clinicamartinez-hero": "#e7f0e9",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "body": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "2xl": "2rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .font-lexend {
+            font-family: 'Lexend', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+
+        .profile-hero {
+            background: linear-gradient(135deg, #f6f6f8 0%, #e7f0e9 100%);
+        }
+
+        .btn-premium {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-premium:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(21, 64, 183, 0.3);
+        }
+    </style>
+</head>
+
+<body class="bg-white text-slate-deep">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <a href="index.html" class="flex items-center gap-3">
+                    <div class="bg-primary p-2 rounded-lg text-white">
+                        <span class="material-symbols-outlined text-3xl">medical_services</span>
+                    </div>
+                    <h1 class="text-2xl font-black tracking-tight text-primary font-lexend">CLINICA MARTINEZ</h1>
+                </a>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-10 text-sm font-bold text-steel-muted uppercase tracking-wider">
+                <a href="#" class="hover:text-primary transition-colors">Especialidades</a>
+                <a href="especialistas.html" class="hover:text-primary transition-colors">Médicos</a>
+                <a href="agendar.html" class="hover:text-primary transition-colors">Agendar Cita</a>
+            </nav>
+
+            <div>
+                <a href="dashboard.html"
+                    class="bg-primary text-white px-8 py-3 rounded-full font-bold text-sm btn-premium shadow-lg shadow-primary/20">
+                    Portal del Paciente
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Profile Header -->
+    <section class="profile-hero py-24">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
+            <div class="w-72 h-72 bg-white rounded-[3rem] shadow-2xl overflow-hidden relative border-8 border-white">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800"
+                    alt="Dr. Juan Pérez" class="w-full h-full object-cover">
+                <div
+                    class="absolute bottom-4 right-4 bg-emerald-500 text-white p-3 rounded-2xl shadow-lg border-4 border-white flex items-center justify-center">
+                    <span class="material-symbols-outlined text-2xl">verified</span>
+                </div>
+            </div>
+            <div class="text-center md:text-left flex-1">
+                <div class="flex flex-col md:flex-row md:items-center gap-6 mb-6">
+                    <h1 class="text-6xl font-lexend font-black text-slate-deep tracking-tight leading-none">Dr. Juan
+                        Pérez</h1>
+                    <div
+                        class="flex items-center gap-2 bg-yellow-50 px-4 py-2 rounded-full text-yellow-700 font-black text-xs uppercase self-center md:self-auto shadow-sm">
+                        <span class="material-symbols-outlined text-sm fill-1">star</span> 4.9 (124 reseñas)
+                    </div>
+                </div>
+                <p class="text-3xl text-primary font-lexend font-black mb-8">Director de Estomatología Avanzada</p>
+                <div class="flex flex-wrap gap-3 justify-center md:justify-start">
+                    <span
+                        class="px-5 py-2 bg-white/60 backdrop-blur rounded-full text-[10px] font-black text-steel-muted uppercase tracking-widest border border-white">#
+                        Implantología</span>
+                    <span
+                        class="px-5 py-2 bg-white/60 backdrop-blur rounded-full text-[10px] font-black text-steel-muted uppercase tracking-widest border border-white">#
+                        Cirugía Maxilofacial</span>
+                    <span
+                        class="px-5 py-2 bg-white/60 backdrop-blur rounded-full text-[10px] font-black text-steel-muted uppercase tracking-widest border border-white">#
+                        Rehabilitación Oral</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Grid -->
+    <main class="py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-3 gap-20">
+
+            <!-- Left Info -->
+            <div class="lg:col-span-2 space-y-24">
+                <!-- Biography -->
+                <section>
+                    <div class="flex items-center gap-4 mb-8">
+                        <div class="w-12 h-12 bg-primary/5 rounded-2xl flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined text-2xl">description</span>
+                        </div>
+                        <h2 class="text-3xl font-lexend font-black text-slate-deep">Sobre el Doctor</h2>
+                    </div>
+                    <p class="text-xl text-steel-muted font-medium leading-relaxed">
+                        Con más de 15 años de experiencia, el Dr. Juan Pérez es reconocido por su enfoque innovador en
+                        la rehabilitación oral compleja. Se especializa en devolver la funcionalidad y estética dental
+                        mediante técnicas mínimamente invasivas y tecnología de punta.
+                    </p>
+                </section>
+
+                <!-- Experience -->
+                <section>
+                    <div class="flex items-center gap-4 mb-10">
+                        <div class="w-12 h-12 bg-primary/5 rounded-2xl flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined text-2xl">school</span>
+                        </div>
+                        <h2 class="text-3xl font-lexend font-black text-slate-deep">Educación y Certificaciones</h2>
+                    </div>
+                    <div class="space-y-6">
+                        <div
+                            class="flex gap-8 p-8 bg-background-light rounded-[2rem] border border-slate-100 group hover:border-primary/20 transition-all">
+                            <div class="text-4xl text-primary opacity-40 group-hover:opacity-100 transition-opacity">
+                                <span class="material-symbols-outlined text-4xl">account_balance</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-lexend font-bold text-slate-deep mb-2">Doctorado en
+                                    Estomatología</h4>
+                                <p class="text-steel-muted font-medium">Universidad Nacional Autónoma (UNAM) - 2010</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex gap-8 p-8 bg-background-light rounded-[2rem] border border-slate-100 group hover:border-primary/20 transition-all">
+                            <div class="text-4xl text-primary opacity-40 group-hover:opacity-100 transition-opacity">
+                                <span class="material-symbols-outlined text-4xl">workspace_premium</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-lexend font-bold text-slate-deep mb-2">Certificación en Cirugía
+                                    Maxilofacial</h4>
+                                <p class="text-steel-muted font-medium">Board Internacional de Odontología Especializada
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Reviews -->
+                <section>
+                    <div class="flex items-center gap-4 mb-10">
+                        <div class="w-12 h-12 bg-primary/5 rounded-2xl flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined text-2xl">forum</span>
+                        </div>
+                        <h2 class="text-3xl font-lexend font-black text-slate-deep">Opiniones de Pacientes</h2>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div
+                            class="p-10 bg-white border border-slate-100 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all italic text-steel-muted font-medium text-lg leading-relaxed relative">
+                            "El trato fue excepcional. Me explicó cada paso del proceso y los resultados superaron mis
+                            expectativas."
+                            <div class="mt-6 flex items-center gap-3 not-italic">
+                                <div
+                                    class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center font-black text-xs text-primary">
+                                    MG</div>
+                                <div class="font-black text-slate-deep text-sm uppercase tracking-widest">María G.</div>
+                            </div>
+                        </div>
+                        <div
+                            class="p-10 bg-white border border-slate-100 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all italic text-steel-muted font-medium text-lg leading-relaxed relative">
+                            "Tecnología impresionante y un equipo médico muy profesional. Lo recomiendo totalmente."
+                            <div class="mt-6 flex items-center gap-3 not-italic">
+                                <div
+                                    class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center font-black text-xs text-primary">
+                                    CR</div>
+                                <div class="font-black text-slate-deep text-sm uppercase tracking-widest">Carlos R.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Sticky Sidebar -->
+            <div class="lg:col-span-1">
+                <div
+                    class="bg-white rounded-[2.5rem] border-2 border-primary p-12 shadow-2xl sticky top-40 flex flex-col items-center text-center">
+                    <h3 class="text-2xl font-lexend font-black text-slate-deep mb-8">Disponibilidad</h3>
+
+                    <div
+                        class="w-full bg-emerald-50 px-6 py-4 rounded-2xl text-emerald-700 font-black text-xs uppercase tracking-widest mb-10 border border-emerald-100">
+                        Próxima Cita disponible Hoy
+                    </div>
+
+                    <div class="w-full py-8 border-y border-slate-100 mb-10">
+                        <p class="text-[10px] font-black text-steel-muted uppercase tracking-[0.2em] mb-2">Costo de
+                            Consulta</p>
+                        <p class="text-5xl font-lexend font-black text-primary">$80.00</p>
+                    </div>
+
+                    <a href="agendar.html"
+                        class="w-full py-5 bg-primary text-white text-lg font-black uppercase tracking-widest rounded-2xl shadow-xl shadow-primary/30 hover:bg-primary-dark transition-all btn-premium">
+                        Agendar Cita
+                    </a>
+
+                    <div class="mt-12 space-y-6">
+                        <div class="flex items-center gap-3 text-steel-muted">
+                            <span class="material-symbols-outlined text-primary text-xl">location_on</span>
+                            <span class="text-sm font-bold tracking-tight">Consultorio 104, Ala Norte</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-steel-muted">
+                            <span class="material-symbols-outlined text-primary text-xl">schedule</span>
+                            <span class="text-sm font-bold tracking-tight">Lun - Vie: 09:00 - 18:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-background-light pt-32 pb-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="flex items-center justify-center gap-3 mb-8">
+                <div class="bg-primary p-2 rounded-lg text-white">
+                    <span class="material-symbols-outlined text-3xl">medical_services</span>
+                </div>
+                <h2 class="text-2xl font-black tracking-tight text-primary font-lexend">CLINICA MARTINEZ</h2>
+            </div>
+            <p class="text-[10px] font-black text-slate-300 uppercase tracking-widest">
+                © 2026 CLINICA MARTINEZ. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

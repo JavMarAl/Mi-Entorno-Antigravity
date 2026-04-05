@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metaanalista - Dashboard Científico</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <aside class="sidebar">
+        <a href="#" class="logo">Metaanalista</a>
+        <nav class="nav-menu">
+            <ul>
+                <li class="nav-item active">Nueva sesión</li>
+                <li class="nav-item">Historial</li>
+                <li class="nav-item">Proyectos</li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p style="font-size: 0.75rem; color: #64748B;">Credits: 100%</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header>
+            <h1>Hola, Investigador</h1>
+            <p>¿Qué revisaremos hoy? Escriba su pregunta PICO para comenzar el análisis.</p>
+        </header>
+
+        <section class="research-card">
+            <div class="pico-input-group">
+                <label for="pico-prompt">Pregunta de Investigación PICO</label>
+                <textarea id="pico-prompt" placeholder="Ej: P: Pacientes con diabetes, I: Metformina, C: Placebo, O: Niveles de glucosa..."></textarea>
+            </div>
+
+            <div class="domain-selector">
+                <span class="pill active">Ciencias Médicas</span>
+                <span class="pill">Farmacología</span>
+                <span class="pill">Salud Pública</span>
+            </div>
+
+            <button id="analyze-btn" class="primary-cta">Analizar con Antigravity AI</button>
+        </section>
+
+        <section id="result-area" class="response-section">
+            <div class="response-card">
+                <h3>Análisis PICO Completado</h3>
+                <div id="pico-output"></div>
+                <pre id="json-debug"></pre>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "literature-review": {
+      "command": "python",
+      "args": ["../skills/literature-review/scripts/search_databases.py"]
+    },
+    "scientific-schematics": {
+      "command": "python",
+      "args": ["../skills/scientific-schematics/scripts/generate_schematic.py"]
+    },
+    "pubmed-database": {
+      "command": "python",
+      "args": ["../skills/citation-management/scripts/search_pubmed.py"]
+    },
+    "citation-management": {
+      "command": "python",
+      "args": ["../skills/literature-review/scripts/verify_citations.py"]
+    },
+    "openalex-database": {
+      "command": "python",
+      "args": ["../skills/openalex-database/scripts/openalex_client.py"]
+    }
+  },
+  "globalSettings": {
+    "timeout": 120,
+    "retries": 3,
+    "logLevel": "INFO"
+  }
+}
